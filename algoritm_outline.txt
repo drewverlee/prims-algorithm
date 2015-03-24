@@ -1,0 +1,56 @@
+Considerations
+===================
+1. re-compute
+===================
+have to re-compute min cost any vertice (danger_vertice) whose edge has 
+been moved from the frontier (all vertices not in current minimal_spanning_tree)
+to the mst
+mst's starting vertice can be arbitrary / random
+
+Data structures
+================
+set of vertices in mst (vertices_in_mst); X in lecture
+set of vertices NOT IN mst; V vertices_not_in_mst
+edges in mst (mst_edges); T in lecture
+heap of vertices_not_in_mst - vertices_in_mst or vertices_not_in_mist_minus_vertices_in_mst
+where vertices are in heap, so i can change position
+
+invarients 
+=======================
+1. Elements in heap = verities of mst_vertices  V - X
+2. for a vertices in vertices_not_in_mist_minus_vertices_in_mst, their key is
+cheapest edge with (u, v) with u in vertices_in_mst
+
+
+procedure class
+==================== 
+X = [S] where x is a set and s is a vertice from V where V is vertices not in mst
+T = 0; Tree is empty, edges in T span the vertices that currently reside in X
+while X != V:
+let e = (u, v) be the cheapest edge where u is in X and v isn't in X
+add e to T
+add v to X
+
+procedure class (Translates
+==================== 
+vertices_in_mst = set(arbitrary_vertice) 
+edges_in_mst = set()
+while vertices_in_mst != vertices_not_in_mst:
+let cheapest_spanning_edge = (vertice_in_mst, vertice_not_in_mist) 
+add cheapest_spanning_edge to edges_in_mst
+add vertices_not_in_mst to vertices_in_mst
+maintain invariant 2 (own function)
+
+how to recompute keyS aka maintain invariant 2 (optical)
+========================
+when a v is added to vertices_in_mst
+for each edge (v, w) in E:
+  # if w in our heap (only those whose keys might have changed)
+  # update key
+      # recompute key[w] = min(key[w], Cvw
+      # re-insert into heap
+      # subtle book keeping have to keep track of where vertices are in tree
+      # keep duplicate of heap with just vertices
+
+
+
