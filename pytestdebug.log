@@ -1,0 +1,2444 @@
+versions pytest-2.6.4, py-1.4.26, python-3.4.0.final.0
+cwd=/home/drew/education/coursera/stanford/algs2/week1/programming/prims
+args=['--debug']
+
+  finish pytest_cmdline_parse --> <_pytest.config.Config object at 0x7f20edffcda0> [hook]
+pytest_cmdline_main [hook]
+    config: <_pytest.config.Config object at 0x7f20edffcda0>
+  pytest_plugin_registered [hook]
+      plugin: <Session 'prims'>
+      manager: <_pytest.config.PytestPluginManager object at 0x7f20ee295780>
+  pytest_configure [hook]
+      config: <_pytest.config.Config object at 0x7f20edffcda0>
+    configured with mode set to 'rewrite' [assertion]
+    pytest_plugin_registered [hook]
+        plugin: <_pytest.terminal.TerminalReporter object at 0x7f20ed601438>
+        manager: <_pytest.config.PytestPluginManager object at 0x7f20ee295780>
+  pytest_sessionstart [hook]
+      session: <Session 'prims'>
+    pytest_plugin_registered [hook]
+        plugin: <_pytest.python.FixtureManager object at 0x7f20ed612198>
+        manager: <_pytest.config.PytestPluginManager object at 0x7f20ee295780>
+    pytest_report_header [hook]
+        config: <_pytest.config.Config object at 0x7f20edffcda0>
+        startdir: /home/drew/education/coursera/stanford/algs2/week1/programming/prims
+      finish pytest_report_header --> [['using: pytest-2.6.4 pylib-1.4.26']] [hook]
+  pytest_collection [hook]
+      session: <Session 'prims'>
+    perform_collect <Session 'prims'> ['/home/drew/education/coursera/stanford/algs2/week1/programming/prims'] [collection]
+      pytest_collectstart [hook]
+          collector: <Session 'prims'>
+      pytest_make_collect_report [hook]
+          collector: <Session 'prims'>
+        processing argument /home/drew/education/coursera/stanford/algs2/week1/programming/prims [collection]
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests
+          pytest_collect_directory [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/__pycache__
+          pytest_collect_directory [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/__pycache__
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/.git
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/data
+          pytest_collect_directory [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/data
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/.graph.py.swp
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/.graph.py.swp
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/algoritm_outline.txt
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/algoritm_outline.txt
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/graph.py
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/graph.py
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/graph.pyc
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/graph.pyc
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/main.py
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/main.py
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/mst.py
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/mst.py
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/mst.pyc
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/mst.pyc
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/prims.py
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/prims.py
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/prims.pyc
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/prims.pyc
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/pytestdebug.log
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/pytestdebug.log
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/que.py
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/que.py
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/que.pyc
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/que.pyc
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/question.md
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/question.md
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/__pycache__/graph.cpython-34.pyc
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/__pycache__/graph.cpython-34.pyc
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/__pycache__/mst.cpython-34.pyc
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/__pycache__/mst.cpython-34.pyc
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/__pycache__/prims.cpython-34.pyc
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/__pycache__/prims.cpython-34.pyc
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/__pycache__/que.cpython-34.pyc
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/__pycache__/que.cpython-34.pyc
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/__pycache__/vertice.cpython-34.pyc
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/__pycache__/vertice.cpython-34.pyc
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/__pycache__/vertices.cpython-34.pyc
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/__pycache__/vertices.cpython-34.pyc
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/data/abcd.txt
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/data/abcd.txt
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/data/data.md
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/data/data.md
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/data/edges.txt
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/data/edges.txt
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/data/four.txt
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/data/four.txt
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/data/one.txt
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/data/one.txt
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/data/three.txt
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/data/three.txt
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/data/two.txt
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/data/two.txt
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/__pycache__
+          pytest_collect_directory [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/__pycache__
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_graph
+          pytest_collect_directory [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_graph
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/tests_integration
+          pytest_collect_directory [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/tests_integration
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_prims
+          pytest_collect_directory [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_prims
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/.mocks.py.swp
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/.mocks.py.swp
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/conftest.py
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/conftest.py
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/mocks.py
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/mocks.py
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/mocks.pyc
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/mocks.pyc
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_simple_que.py
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_simple_que.py
+            pytest_pycollect_makemodule [hook]
+                parent: <Session 'prims'>
+                path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_simple_que.py
+              finish pytest_pycollect_makemodule --> <Module 'tests/test_simple_que.py'> [hook]
+            finish pytest_collect_file --> [<Module 'tests/test_simple_que.py'>] [hook]
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/__pycache__/conftest.cpython-34.pyc
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/__pycache__/conftest.cpython-34.pyc
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/__pycache__/mocks.cpython-34.pyc
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/__pycache__/mocks.cpython-34.pyc
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/__pycache__/test_prims.cpython-34-PYTEST.pyc
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/__pycache__/test_prims.cpython-34-PYTEST.pyc
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/__pycache__/test_simple_que.cpython-34-PYTEST.pyc
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/__pycache__/test_simple_que.cpython-34-PYTEST.pyc
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_graph/__pycache__
+          pytest_collect_directory [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_graph/__pycache__
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_graph/.test_any_value.py.swp
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_graph/.test_any_value.py.swp
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_graph/test_any_value.py
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_graph/test_any_value.py
+            pytest_pycollect_makemodule [hook]
+                parent: <Session 'prims'>
+                path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_graph/test_any_value.py
+              finish pytest_pycollect_makemodule --> <Module 'tests/test_graph/test_any_value.py'> [hook]
+            finish pytest_collect_file --> [<Module 'tests/test_graph/test_any_value.py'>] [hook]
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_graph/test_file_one.py
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_graph/test_file_one.py
+            pytest_pycollect_makemodule [hook]
+                parent: <Session 'prims'>
+                path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_graph/test_file_one.py
+              finish pytest_pycollect_makemodule --> <Module 'tests/test_graph/test_file_one.py'> [hook]
+            finish pytest_collect_file --> [<Module 'tests/test_graph/test_file_one.py'>] [hook]
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_graph/test_file_two.py
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_graph/test_file_two.py
+            pytest_pycollect_makemodule [hook]
+                parent: <Session 'prims'>
+                path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_graph/test_file_two.py
+              finish pytest_pycollect_makemodule --> <Module 'tests/test_graph/test_file_two.py'> [hook]
+            finish pytest_collect_file --> [<Module 'tests/test_graph/test_file_two.py'>] [hook]
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_graph/__pycache__/test_any_value.cpython-34-PYTEST.pyc
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_graph/__pycache__/test_any_value.cpython-34-PYTEST.pyc
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_graph/__pycache__/test_file_one.cpython-34-PYTEST.pyc
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_graph/__pycache__/test_file_one.cpython-34-PYTEST.pyc
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_graph/__pycache__/test_file_two.cpython-34-PYTEST.pyc
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_graph/__pycache__/test_file_two.cpython-34-PYTEST.pyc
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_prims/__pycache__
+          pytest_collect_directory [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_prims/__pycache__
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_prims/test_abcd.py
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_prims/test_abcd.py
+            pytest_pycollect_makemodule [hook]
+                parent: <Session 'prims'>
+                path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_prims/test_abcd.py
+              finish pytest_pycollect_makemodule --> <Module 'tests/test_prims/test_abcd.py'> [hook]
+            finish pytest_collect_file --> [<Module 'tests/test_prims/test_abcd.py'>] [hook]
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_prims/__pycache__/test_abcd.cpython-34-PYTEST.pyc
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_prims/__pycache__/test_abcd.cpython-34-PYTEST.pyc
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/tests_integration/__pycache__
+          pytest_collect_directory [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/tests_integration/__pycache__
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/tests_integration/test_one.py
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/tests_integration/test_one.py
+            pytest_pycollect_makemodule [hook]
+                parent: <Session 'prims'>
+                path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/tests_integration/test_one.py
+              finish pytest_pycollect_makemodule --> <Module 'tests/tests_integration/test_one.py'> [hook]
+            finish pytest_collect_file --> [<Module 'tests/tests_integration/test_one.py'>] [hook]
+          pytest_ignore_collect [hook]
+              config: <_pytest.config.Config object at 0x7f20edffcda0>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/tests_integration/__pycache__/test_one.cpython-34-PYTEST.pyc
+          pytest_collect_file [hook]
+              parent: <Session 'prims'>
+              path: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/tests_integration/__pycache__/test_one.cpython-34-PYTEST.pyc
+        finish pytest_make_collect_report --> <CollectReport '.' lenresult=6 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport '.' lenresult=6 outcome='passed'>
+    genitems <Module 'tests/test_simple_que.py'> [collection]
+    pytest_collectstart [hook]
+        collector: <Module 'tests/test_simple_que.py'>
+    pytest_make_collect_report [hook]
+        collector: <Module 'tests/test_simple_que.py'>
+      find_module called for: test_simple_que [assertion]
+      matched test file '/home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_simple_que.py' [assertion]
+      found cached rewritten pyc for '/home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_simple_que.py' [assertion]
+      pytest_pycollect_makeitem [hook]
+          name: __file__
+          obj: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_simple_que.py
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: B
+          obj: 2
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __loader__
+          obj: <_pytest.assertion.rewrite.AssertionRewritingHook object at 0x7f20ed64eef0>
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: test_simple_que_should_find_cheapest_spanning_vertice
+          obj: <function test_simple_que_should_find_cheapest_spanning_vertice at 0x7f20ed613d90>
+          collector: <Module 'tests/test_simple_que.py'>
+        pytest_generate_tests [hook]
+            metafunc: <_pytest.python.Metafunc object at 0x7f20ed5a9828>
+        finish pytest_pycollect_makeitem --> [<Function 'test_simple_que_should_find_cheapest_spanning_vertice'>] [hook]
+      pytest_pycollect_makeitem [hook]
+          name: test_simple_que_should_find_cheapest_spanning_egde_cost
+          obj: <function test_simple_que_should_find_cheapest_spanning_egde_cost at 0x7f20ed5a2048>
+          collector: <Module 'tests/test_simple_que.py'>
+        pytest_generate_tests [hook]
+            metafunc: <_pytest.python.Metafunc object at 0x7f20ed5a9b38>
+        finish pytest_pycollect_makeitem --> [<Function 'test_simple_que_should_find_cheapest_spanning_egde_cost'>] [hook]
+      pytest_pycollect_makeitem [hook]
+          name: A_B_COST
+          obj: 0
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: SimpleQue
+          obj: <class 'que.SimpleQue'>
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __spec__
+          obj: ModuleSpec(name='test_simple_que', loader=<_pytest.assertion.rewrite.AssertionRewritingHook object at 0x7f20ed64eef0>)
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __doc__
+          obj: None
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __name__
+          obj: test_simple_que
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: A_B
+          obj: frozenset({1, 2})
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: @py_builtins
+          obj: <module 'builtins' (built-in)>
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: test_simple_que_should_find_cheapest_spanning_egde
+          obj: <function test_simple_que_should_find_cheapest_spanning_egde at 0x7f20ed613d08>
+          collector: <Module 'tests/test_simple_que.py'>
+        pytest_generate_tests [hook]
+            metafunc: <_pytest.python.Metafunc object at 0x7f20ed5a9978>
+        finish pytest_pycollect_makeitem --> [<Function 'test_simple_que_should_find_cheapest_spanning_egde'>] [hook]
+      pytest_pycollect_makeitem [hook]
+          name: __cached__
+          obj: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/__pycache__/test_simple_que.cpython-34-PYTEST.pyc
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: @pytest_ar
+          obj: <module '_pytest.assertion.rewrite' from '/home/drew/.virtualenvs/prims/lib/python3.4/site-packages/_pytest/assertion/rewrite.py'>
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __package__
+          obj: 
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: test_simple_que_should_be_simple_que
+          obj: <function test_simple_que_should_be_simple_que at 0x7f20ed613e18>
+          collector: <Module 'tests/test_simple_que.py'>
+        pytest_generate_tests [hook]
+            metafunc: <_pytest.python.Metafunc object at 0x7f20ed5a9978>
+        finish pytest_pycollect_makeitem --> [<Function 'test_simple_que_should_be_simple_que'>] [hook]
+      pytest_pycollect_makeitem [hook]
+          name: __builtins__
+          obj: {'TabError': <class 'TabError'>, 'staticmethod': <class 'staticmethod'>, 'dict': <class 'dict'>, 'KeyError': <class 'KeyError'>, 'input': <built-in function input>, 'SyntaxError': <class 'SyntaxError'>, '__spec__': ModuleSpec(name='builtins', loader=<class '_frozen_importlib.BuiltinImporter'>), 'sorted': <built-in function sorted>, 'FloatingPointError': <class 'FloatingPointError'>, 'BrokenPipeError': <class 'BrokenPipeError'>, 'EOFError': <class 'EOFError'>, 'ResourceWarning': <class 'ResourceWarning'>, 'getattr': <built-in function getattr>, 'tuple': <class 'tuple'>, 'callable': <built-in function callable>, 'IndexError': <class 'IndexError'>, 'UnicodeDecodeError': <class 'UnicodeDecodeError'>, 'RuntimeWarning': <class 'RuntimeWarning'>, 'AttributeError': <class 'AttributeError'>, 'OSError': <class 'OSError'>, 'format': <built-in function format>, 'TypeError': <class 'TypeError'>, '__import__': <built-in function __import__>, 'ChildProcessError': <class 'ChildProcessError'>, 'hasattr': <built-in function hasattr>, 'NameError': <class 'NameError'>, 'compile': <built-in function compile>, 'print': <built-in function print>, '__debug__': True, 'BufferError': <class 'BufferError'>, 'memoryview': <class 'memoryview'>, 'Warning': <class 'Warning'>, 'super': <class 'super'>, 'classmethod': <class 'classmethod'>, 'oct': <built-in function oct>, 'StopIteration': <class 'StopIteration'>, 'UnicodeError': <class 'UnicodeError'>, 'any': <built-in function any>, 'UnicodeEncodeError': <class 'UnicodeEncodeError'>, 'eval': <built-in function eval>, 'FutureWarning': <class 'FutureWarning'>, 'UnicodeWarning': <class 'UnicodeWarning'>, 'ConnectionRefusedError': <class 'ConnectionRefusedError'>, 'map': <class 'map'>, 'filter': <class 'filter'>, 'BaseException': <class 'BaseException'>, 'IOError': <class 'OSError'>, 'hex': <built-in function hex>, 'delattr': <built-in function delattr>, 'SystemError': <class 'SystemError'>, 'pow': <built-in function pow>, 'ascii': <built-in function ascii>, '__doc__': "Built-in functions, exceptions, and other objects.\n\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices.", 'divmod': <built-in function divmod>, 'credits':     Thanks to CWI, CNRI, BeOpen.com, Zope Corporation and a cast of thousands
+    for supporting Python development.  See www.python.org for more information., 'range': <class 'range'>, 'ConnectionResetError': <class 'ConnectionResetError'>, 'IsADirectoryError': <class 'IsADirectoryError'>, 'NotADirectoryError': <class 'NotADirectoryError'>, 'round': <built-in function round>, 'property': <class 'property'>, 'SystemExit': <class 'SystemExit'>, 'isinstance': <built-in function isinstance>, 'float': <class 'float'>, 'id': <built-in function id>, 'object': <class 'object'>, 'bytearray': <class 'bytearray'>, 'MemoryError': <class 'MemoryError'>, 'int': <class 'int'>, '__package__': '', 'issubclass': <built-in function issubclass>, 'PendingDeprecationWarning': <class 'PendingDeprecationWarning'>, 'ImportWarning': <class 'ImportWarning'>, 'globals': <built-in function globals>, 'ord': <built-in function ord>, 'InterruptedError': <class 'InterruptedError'>, 'bytes': <class 'bytes'>, 'KeyboardInterrupt': <class 'KeyboardInterrupt'>, 'False': False, 'slice': <class 'slice'>, 'NotImplementedError': <class 'NotImplementedError'>, '__build_class__': <built-in function __build_class__>, 'True': True, 'ProcessLookupError': <class 'ProcessLookupError'>, 'min': <built-in function min>, 'FileExistsError': <class 'FileExistsError'>, 'LookupError': <class 'LookupError'>, 'GeneratorExit': <class 'GeneratorExit'>, 'ZeroDivisionError': <class 'ZeroDivisionError'>, 'dir': <built-in function dir>, 'exec': <built-in function exec>, 'locals': <built-in function locals>, 'DeprecationWarning': <class 'DeprecationWarning'>, 'ReferenceError': <class 'ReferenceError'>, 'list': <class 'list'>, 'EnvironmentError': <class 'OSError'>, 'OverflowError': <class 'OverflowError'>, 'PermissionError': <class 'PermissionError'>, 'quit': Use quit() or Ctrl-D (i.e. EOF) to exit, 'RuntimeError': <class 'RuntimeError'>, 'ConnectionError': <class 'ConnectionError'>, 'max': <built-in function max>, 'reversed': <class 'reversed'>, 'help': Type help() for interactive help, or help(object) for help about object., 'enumerate': <class 'enumerate'>, 'TimeoutError': <class 'TimeoutError'>, 'open': <built-in function open>, 'Exception': <class 'Exception'>, 'zip': <class 'zip'>, '__name__': 'builtins', 'frozenset': <class 'frozenset'>, 'IndentationError': <class 'IndentationError'>, 'SyntaxWarning': <class 'SyntaxWarning'>, 'hash': <built-in function hash>, 'type': <class 'type'>, 'BlockingIOError': <class 'BlockingIOError'>, 'vars': <built-in function vars>, 'set': <class 'set'>, 'exit': Use exit() or Ctrl-D (i.e. EOF) to exit, 'setattr': <built-in function setattr>, 'next': <built-in function next>, 'ImportError': <class 'ImportError'>, 'UserWarning': <class 'UserWarning'>, 'ValueError': <class 'ValueError'>, 'len': <built-in function len>, 'copyright': Copyright (c) 2001-2014 Python Software Foundation.
+All Rights Reserved.
+
+Copyright (c) 2000 BeOpen.com.
+All Rights Reserved.
+
+Copyright (c) 1995-2001 Corporation for National Research Initiatives.
+All Rights Reserved.
+
+Copyright (c) 1991-1995 Stichting Mathematisch Centrum, Amsterdam.
+All Rights Reserved., 'complex': <class 'complex'>, 'Ellipsis': Ellipsis, 'sum': <built-in function sum>, 'None': None, 'repr': <built-in function repr>, 'UnicodeTranslateError': <class 'UnicodeTranslateError'>, 'str': <class 'str'>, '__loader__': <class '_frozen_importlib.BuiltinImporter'>, 'iter': <built-in function iter>, 'all': <built-in function all>, 'bool': <class 'bool'>, 'ArithmeticError': <class 'ArithmeticError'>, 'BytesWarning': <class 'BytesWarning'>, 'AssertionError': <class 'AssertionError'>, 'license': See http://www.python.org/3.4/license.html, 'UnboundLocalError': <class 'UnboundLocalError'>, 'chr': <built-in function chr>, 'FileNotFoundError': <class 'FileNotFoundError'>, 'bin': <built-in function bin>, 'ConnectionAbortedError': <class 'ConnectionAbortedError'>, 'abs': <built-in function abs>, 'NotImplemented': NotImplemented}
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __setattr__
+          obj: <slot wrapper '__setattr__' of 'module' objects>
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __init__
+          obj: <slot wrapper '__init__' of 'module' objects>
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __getattribute__
+          obj: <slot wrapper '__getattribute__' of 'module' objects>
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __repr__
+          obj: <slot wrapper '__repr__' of 'module' objects>
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __new__
+          obj: <built-in method __new__ of type object at 0x9cce60>
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __delattr__
+          obj: <slot wrapper '__delattr__' of 'module' objects>
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __dir__
+          obj: <method '__dir__' of 'module' objects>
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __dict__
+          obj: <member '__dict__' of 'module' objects>
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __ne__
+          obj: <slot wrapper '__ne__' of 'object' objects>
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __str__
+          obj: <slot wrapper '__str__' of 'object' objects>
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __lt__
+          obj: <slot wrapper '__lt__' of 'object' objects>
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __format__
+          obj: <method '__format__' of 'object' objects>
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __reduce__
+          obj: <method '__reduce__' of 'object' objects>
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __sizeof__
+          obj: <method '__sizeof__' of 'object' objects>
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __subclasshook__
+          obj: <method '__subclasshook__' of 'object' objects>
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __hash__
+          obj: <slot wrapper '__hash__' of 'object' objects>
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __eq__
+          obj: <slot wrapper '__eq__' of 'object' objects>
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __class__
+          obj: <attribute '__class__' of 'object' objects>
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __reduce_ex__
+          obj: <method '__reduce_ex__' of 'object' objects>
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __ge__
+          obj: <slot wrapper '__ge__' of 'object' objects>
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __gt__
+          obj: <slot wrapper '__gt__' of 'object' objects>
+          collector: <Module 'tests/test_simple_que.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __le__
+          obj: <slot wrapper '__le__' of 'object' objects>
+          collector: <Module 'tests/test_simple_que.py'>
+      finish pytest_make_collect_report --> <CollectReport 'tests/test_simple_que.py' lenresult=4 outcome='passed'> [hook]
+    genitems <Function 'test_simple_que_should_be_simple_que'> [collection]
+    pytest_itemcollected [hook]
+        item: <Function 'test_simple_que_should_be_simple_que'>
+    genitems <Function 'test_simple_que_should_find_cheapest_spanning_egde'> [collection]
+    pytest_itemcollected [hook]
+        item: <Function 'test_simple_que_should_find_cheapest_spanning_egde'>
+    genitems <Function 'test_simple_que_should_find_cheapest_spanning_vertice'> [collection]
+    pytest_itemcollected [hook]
+        item: <Function 'test_simple_que_should_find_cheapest_spanning_vertice'>
+    genitems <Function 'test_simple_que_should_find_cheapest_spanning_egde_cost'> [collection]
+    pytest_itemcollected [hook]
+        item: <Function 'test_simple_que_should_find_cheapest_spanning_egde_cost'>
+    pytest_collectreport [hook]
+        report: <CollectReport 'tests/test_simple_que.py' lenresult=4 outcome='passed'>
+    genitems <Module 'tests/test_graph/test_any_value.py'> [collection]
+    pytest_collectstart [hook]
+        collector: <Module 'tests/test_graph/test_any_value.py'>
+    pytest_make_collect_report [hook]
+        collector: <Module 'tests/test_graph/test_any_value.py'>
+      find_module called for: test_any_value [assertion]
+      matched test file '/home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_graph/test_any_value.py' [assertion]
+      found cached rewritten pyc for '/home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_graph/test_any_value.py' [assertion]
+      pytest_pycollect_makeitem [hook]
+          name: __file__
+          obj: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_graph/test_any_value.py
+          collector: <Module 'tests/test_graph/test_any_value.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __loader__
+          obj: <_pytest.assertion.rewrite.AssertionRewritingHook object at 0x7f20ed64eef0>
+          collector: <Module 'tests/test_graph/test_any_value.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __cached__
+          obj: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_graph/__pycache__/test_any_value.cpython-34-PYTEST.pyc
+          collector: <Module 'tests/test_graph/test_any_value.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __spec__
+          obj: ModuleSpec(name='test_any_value', loader=<_pytest.assertion.rewrite.AssertionRewritingHook object at 0x7f20ed64eef0>)
+          collector: <Module 'tests/test_graph/test_any_value.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __builtins__
+          obj: {'TabError': <class 'TabError'>, 'staticmethod': <class 'staticmethod'>, 'dict': <class 'dict'>, 'KeyError': <class 'KeyError'>, 'input': <built-in function input>, 'SyntaxError': <class 'SyntaxError'>, '__spec__': ModuleSpec(name='builtins', loader=<class '_frozen_importlib.BuiltinImporter'>), 'sorted': <built-in function sorted>, 'FloatingPointError': <class 'FloatingPointError'>, 'BrokenPipeError': <class 'BrokenPipeError'>, 'EOFError': <class 'EOFError'>, 'ResourceWarning': <class 'ResourceWarning'>, 'getattr': <built-in function getattr>, 'tuple': <class 'tuple'>, 'callable': <built-in function callable>, 'IndexError': <class 'IndexError'>, 'UnicodeDecodeError': <class 'UnicodeDecodeError'>, 'RuntimeWarning': <class 'RuntimeWarning'>, 'AttributeError': <class 'AttributeError'>, 'OSError': <class 'OSError'>, 'format': <built-in function format>, 'TypeError': <class 'TypeError'>, '__import__': <built-in function __import__>, 'ChildProcessError': <class 'ChildProcessError'>, 'hasattr': <built-in function hasattr>, 'NameError': <class 'NameError'>, 'compile': <built-in function compile>, 'print': <built-in function print>, '__debug__': True, 'BufferError': <class 'BufferError'>, 'memoryview': <class 'memoryview'>, 'Warning': <class 'Warning'>, 'super': <class 'super'>, 'classmethod': <class 'classmethod'>, 'oct': <built-in function oct>, 'StopIteration': <class 'StopIteration'>, 'UnicodeError': <class 'UnicodeError'>, 'any': <built-in function any>, 'UnicodeEncodeError': <class 'UnicodeEncodeError'>, 'eval': <built-in function eval>, 'FutureWarning': <class 'FutureWarning'>, 'UnicodeWarning': <class 'UnicodeWarning'>, 'ConnectionRefusedError': <class 'ConnectionRefusedError'>, 'map': <class 'map'>, 'filter': <class 'filter'>, 'BaseException': <class 'BaseException'>, 'IOError': <class 'OSError'>, 'hex': <built-in function hex>, 'delattr': <built-in function delattr>, 'SystemError': <class 'SystemError'>, 'pow': <built-in function pow>, 'ascii': <built-in function ascii>, '__doc__': "Built-in functions, exceptions, and other objects.\n\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices.", 'divmod': <built-in function divmod>, 'credits':     Thanks to CWI, CNRI, BeOpen.com, Zope Corporation and a cast of thousands
+    for supporting Python development.  See www.python.org for more information., 'range': <class 'range'>, 'ConnectionResetError': <class 'ConnectionResetError'>, 'IsADirectoryError': <class 'IsADirectoryError'>, 'NotADirectoryError': <class 'NotADirectoryError'>, 'round': <built-in function round>, 'property': <class 'property'>, 'SystemExit': <class 'SystemExit'>, 'isinstance': <built-in function isinstance>, 'float': <class 'float'>, 'id': <built-in function id>, 'object': <class 'object'>, 'bytearray': <class 'bytearray'>, 'MemoryError': <class 'MemoryError'>, 'int': <class 'int'>, '__package__': '', 'issubclass': <built-in function issubclass>, 'PendingDeprecationWarning': <class 'PendingDeprecationWarning'>, 'ImportWarning': <class 'ImportWarning'>, 'globals': <built-in function globals>, 'ord': <built-in function ord>, 'InterruptedError': <class 'InterruptedError'>, 'bytes': <class 'bytes'>, 'KeyboardInterrupt': <class 'KeyboardInterrupt'>, 'False': False, 'slice': <class 'slice'>, 'NotImplementedError': <class 'NotImplementedError'>, '__build_class__': <built-in function __build_class__>, 'True': True, 'ProcessLookupError': <class 'ProcessLookupError'>, 'min': <built-in function min>, 'FileExistsError': <class 'FileExistsError'>, 'LookupError': <class 'LookupError'>, 'GeneratorExit': <class 'GeneratorExit'>, 'ZeroDivisionError': <class 'ZeroDivisionError'>, 'dir': <built-in function dir>, 'exec': <built-in function exec>, 'locals': <built-in function locals>, 'DeprecationWarning': <class 'DeprecationWarning'>, 'ReferenceError': <class 'ReferenceError'>, 'list': <class 'list'>, 'EnvironmentError': <class 'OSError'>, 'OverflowError': <class 'OverflowError'>, 'PermissionError': <class 'PermissionError'>, 'quit': Use quit() or Ctrl-D (i.e. EOF) to exit, 'RuntimeError': <class 'RuntimeError'>, 'ConnectionError': <class 'ConnectionError'>, 'max': <built-in function max>, 'reversed': <class 'reversed'>, 'help': Type help() for interactive help, or help(object) for help about object., 'enumerate': <class 'enumerate'>, 'TimeoutError': <class 'TimeoutError'>, 'open': <built-in function open>, 'Exception': <class 'Exception'>, 'zip': <class 'zip'>, '__name__': 'builtins', 'frozenset': <class 'frozenset'>, 'IndentationError': <class 'IndentationError'>, 'SyntaxWarning': <class 'SyntaxWarning'>, 'hash': <built-in function hash>, 'type': <class 'type'>, 'BlockingIOError': <class 'BlockingIOError'>, 'vars': <built-in function vars>, 'set': <class 'set'>, 'exit': Use exit() or Ctrl-D (i.e. EOF) to exit, 'setattr': <built-in function setattr>, 'next': <built-in function next>, 'ImportError': <class 'ImportError'>, 'UserWarning': <class 'UserWarning'>, 'ValueError': <class 'ValueError'>, 'len': <built-in function len>, 'copyright': Copyright (c) 2001-2014 Python Software Foundation.
+All Rights Reserved.
+
+Copyright (c) 2000 BeOpen.com.
+All Rights Reserved.
+
+Copyright (c) 1995-2001 Corporation for National Research Initiatives.
+All Rights Reserved.
+
+Copyright (c) 1991-1995 Stichting Mathematisch Centrum, Amsterdam.
+All Rights Reserved., 'complex': <class 'complex'>, 'Ellipsis': Ellipsis, 'sum': <built-in function sum>, 'None': None, 'repr': <built-in function repr>, 'UnicodeTranslateError': <class 'UnicodeTranslateError'>, 'str': <class 'str'>, '__loader__': <class '_frozen_importlib.BuiltinImporter'>, 'iter': <built-in function iter>, 'all': <built-in function all>, 'bool': <class 'bool'>, 'ArithmeticError': <class 'ArithmeticError'>, 'BytesWarning': <class 'BytesWarning'>, 'AssertionError': <class 'AssertionError'>, 'license': See http://www.python.org/3.4/license.html, 'UnboundLocalError': <class 'UnboundLocalError'>, 'chr': <built-in function chr>, 'FileNotFoundError': <class 'FileNotFoundError'>, 'bin': <built-in function bin>, 'ConnectionAbortedError': <class 'ConnectionAbortedError'>, 'abs': <built-in function abs>, 'NotImplemented': NotImplemented}
+          collector: <Module 'tests/test_graph/test_any_value.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __package__
+          obj: 
+          collector: <Module 'tests/test_graph/test_any_value.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __doc__
+          obj: None
+          collector: <Module 'tests/test_graph/test_any_value.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __name__
+          obj: test_any_value
+          collector: <Module 'tests/test_graph/test_any_value.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __setattr__
+          obj: <slot wrapper '__setattr__' of 'module' objects>
+          collector: <Module 'tests/test_graph/test_any_value.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __init__
+          obj: <slot wrapper '__init__' of 'module' objects>
+          collector: <Module 'tests/test_graph/test_any_value.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __getattribute__
+          obj: <slot wrapper '__getattribute__' of 'module' objects>
+          collector: <Module 'tests/test_graph/test_any_value.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __repr__
+          obj: <slot wrapper '__repr__' of 'module' objects>
+          collector: <Module 'tests/test_graph/test_any_value.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __new__
+          obj: <built-in method __new__ of type object at 0x9cce60>
+          collector: <Module 'tests/test_graph/test_any_value.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __delattr__
+          obj: <slot wrapper '__delattr__' of 'module' objects>
+          collector: <Module 'tests/test_graph/test_any_value.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __dir__
+          obj: <method '__dir__' of 'module' objects>
+          collector: <Module 'tests/test_graph/test_any_value.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __dict__
+          obj: <member '__dict__' of 'module' objects>
+          collector: <Module 'tests/test_graph/test_any_value.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __ne__
+          obj: <slot wrapper '__ne__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_any_value.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __str__
+          obj: <slot wrapper '__str__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_any_value.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __lt__
+          obj: <slot wrapper '__lt__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_any_value.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __format__
+          obj: <method '__format__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_any_value.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __reduce__
+          obj: <method '__reduce__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_any_value.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __sizeof__
+          obj: <method '__sizeof__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_any_value.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __subclasshook__
+          obj: <method '__subclasshook__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_any_value.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __hash__
+          obj: <slot wrapper '__hash__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_any_value.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __eq__
+          obj: <slot wrapper '__eq__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_any_value.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __class__
+          obj: <attribute '__class__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_any_value.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __reduce_ex__
+          obj: <method '__reduce_ex__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_any_value.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __ge__
+          obj: <slot wrapper '__ge__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_any_value.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __gt__
+          obj: <slot wrapper '__gt__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_any_value.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __le__
+          obj: <slot wrapper '__le__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_any_value.py'>
+      finish pytest_make_collect_report --> <CollectReport 'tests/test_graph/test_any_value.py' lenresult=0 outcome='passed'> [hook]
+    pytest_collectreport [hook]
+        report: <CollectReport 'tests/test_graph/test_any_value.py' lenresult=0 outcome='passed'>
+    genitems <Module 'tests/test_graph/test_file_one.py'> [collection]
+    pytest_collectstart [hook]
+        collector: <Module 'tests/test_graph/test_file_one.py'>
+    pytest_make_collect_report [hook]
+        collector: <Module 'tests/test_graph/test_file_one.py'>
+      find_module called for: test_file_one [assertion]
+      matched test file '/home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_graph/test_file_one.py' [assertion]
+      found cached rewritten pyc for '/home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_graph/test_file_one.py' [assertion]
+      pytest_pycollect_makeitem [hook]
+          name: __file__
+          obj: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_graph/test_file_one.py
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __loader__
+          obj: <_pytest.assertion.rewrite.AssertionRewritingHook object at 0x7f20ed64eef0>
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: test_graph_should_have_vertice_2
+          obj: <function test_graph_should_have_vertice_2 at 0x7f20ed5a22f0>
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+        pytest_generate_tests [hook]
+            metafunc: <_pytest.python.Metafunc object at 0x7f20ed5a9e10>
+        finish pytest_pycollect_makeitem --> [<Function 'test_graph_should_have_vertice_2'>] [hook]
+      pytest_pycollect_makeitem [hook]
+          name: __spec__
+          obj: ModuleSpec(name='test_file_one', loader=<_pytest.assertion.rewrite.AssertionRewritingHook object at 0x7f20ed64eef0>)
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: Graph
+          obj: <class 'graph.Graph'>
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __doc__
+          obj: 
+4 4
+1 2 1
+2 3 2
+3 4 3
+4 1 4
+
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: test_graph_should_have_4_edges
+          obj: <function test_graph_should_have_4_edges at 0x7f20ed5a21e0>
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+        pytest_generate_tests [hook]
+            metafunc: <_pytest.python.Metafunc object at 0x7f20ed5b1470>
+        finish pytest_pycollect_makeitem --> [<Function 'test_graph_should_have_4_edges'>] [hook]
+      pytest_pycollect_makeitem [hook]
+          name: test_graph_edge_4_1_should_be_4
+          obj: <function test_graph_edge_4_1_should_be_4 at 0x7f20ed5a2400>
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+        pytest_generate_tests [hook]
+            metafunc: <_pytest.python.Metafunc object at 0x7f20ed5b1208>
+        finish pytest_pycollect_makeitem --> [<Function 'test_graph_edge_4_1_should_be_4'>] [hook]
+      pytest_pycollect_makeitem [hook]
+          name: __name__
+          obj: test_file_one
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: @py_builtins
+          obj: <module 'builtins' (built-in)>
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: test_graph_should_be_graph
+          obj: <function test_graph_should_be_graph at 0x7f20ed5a2268>
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+        pytest_generate_tests [hook]
+            metafunc: <_pytest.python.Metafunc object at 0x7f20ed5b1128>
+        finish pytest_pycollect_makeitem --> [<Function 'test_graph_should_be_graph'>] [hook]
+      pytest_pycollect_makeitem [hook]
+          name: __cached__
+          obj: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_graph/__pycache__/test_file_one.cpython-34-PYTEST.pyc
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: @pytest_ar
+          obj: <module '_pytest.assertion.rewrite' from '/home/drew/.virtualenvs/prims/lib/python3.4/site-packages/_pytest/assertion/rewrite.py'>
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __package__
+          obj: 
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: test_graph_should_have_4_vertices
+          obj: <function test_graph_should_have_4_vertices at 0x7f20ed5a2158>
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+        pytest_generate_tests [hook]
+            metafunc: <_pytest.python.Metafunc object at 0x7f20ed5b1198>
+        finish pytest_pycollect_makeitem --> [<Function 'test_graph_should_have_4_vertices'>] [hook]
+      pytest_pycollect_makeitem [hook]
+          name: test_graph_should_have_edge_2_3
+          obj: <function test_graph_should_have_edge_2_3 at 0x7f20ed5a2378>
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+        pytest_generate_tests [hook]
+            metafunc: <_pytest.python.Metafunc object at 0x7f20ed5b1550>
+        finish pytest_pycollect_makeitem --> [<Function 'test_graph_should_have_edge_2_3'>] [hook]
+      pytest_pycollect_makeitem [hook]
+          name: __builtins__
+          obj: {'TabError': <class 'TabError'>, 'staticmethod': <class 'staticmethod'>, 'dict': <class 'dict'>, 'KeyError': <class 'KeyError'>, 'input': <built-in function input>, 'SyntaxError': <class 'SyntaxError'>, '__spec__': ModuleSpec(name='builtins', loader=<class '_frozen_importlib.BuiltinImporter'>), 'sorted': <built-in function sorted>, 'FloatingPointError': <class 'FloatingPointError'>, 'BrokenPipeError': <class 'BrokenPipeError'>, 'EOFError': <class 'EOFError'>, 'ResourceWarning': <class 'ResourceWarning'>, 'getattr': <built-in function getattr>, 'tuple': <class 'tuple'>, 'callable': <built-in function callable>, 'IndexError': <class 'IndexError'>, 'UnicodeDecodeError': <class 'UnicodeDecodeError'>, 'RuntimeWarning': <class 'RuntimeWarning'>, 'AttributeError': <class 'AttributeError'>, 'OSError': <class 'OSError'>, 'format': <built-in function format>, 'TypeError': <class 'TypeError'>, '__import__': <built-in function __import__>, 'ChildProcessError': <class 'ChildProcessError'>, 'hasattr': <built-in function hasattr>, 'NameError': <class 'NameError'>, 'compile': <built-in function compile>, 'print': <built-in function print>, '__debug__': True, 'BufferError': <class 'BufferError'>, 'memoryview': <class 'memoryview'>, 'Warning': <class 'Warning'>, 'super': <class 'super'>, 'classmethod': <class 'classmethod'>, 'oct': <built-in function oct>, 'StopIteration': <class 'StopIteration'>, 'UnicodeError': <class 'UnicodeError'>, 'any': <built-in function any>, 'UnicodeEncodeError': <class 'UnicodeEncodeError'>, 'eval': <built-in function eval>, 'FutureWarning': <class 'FutureWarning'>, 'UnicodeWarning': <class 'UnicodeWarning'>, 'ConnectionRefusedError': <class 'ConnectionRefusedError'>, 'map': <class 'map'>, 'filter': <class 'filter'>, 'BaseException': <class 'BaseException'>, 'IOError': <class 'OSError'>, 'hex': <built-in function hex>, 'delattr': <built-in function delattr>, 'SystemError': <class 'SystemError'>, 'pow': <built-in function pow>, 'ascii': <built-in function ascii>, '__doc__': "Built-in functions, exceptions, and other objects.\n\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices.", 'divmod': <built-in function divmod>, 'credits':     Thanks to CWI, CNRI, BeOpen.com, Zope Corporation and a cast of thousands
+    for supporting Python development.  See www.python.org for more information., 'range': <class 'range'>, 'ConnectionResetError': <class 'ConnectionResetError'>, 'IsADirectoryError': <class 'IsADirectoryError'>, 'NotADirectoryError': <class 'NotADirectoryError'>, 'round': <built-in function round>, 'property': <class 'property'>, 'SystemExit': <class 'SystemExit'>, 'isinstance': <built-in function isinstance>, 'float': <class 'float'>, 'id': <built-in function id>, 'object': <class 'object'>, 'bytearray': <class 'bytearray'>, 'MemoryError': <class 'MemoryError'>, 'int': <class 'int'>, '__package__': '', 'issubclass': <built-in function issubclass>, 'PendingDeprecationWarning': <class 'PendingDeprecationWarning'>, 'ImportWarning': <class 'ImportWarning'>, 'globals': <built-in function globals>, 'ord': <built-in function ord>, 'InterruptedError': <class 'InterruptedError'>, 'bytes': <class 'bytes'>, 'KeyboardInterrupt': <class 'KeyboardInterrupt'>, 'False': False, 'slice': <class 'slice'>, 'NotImplementedError': <class 'NotImplementedError'>, '__build_class__': <built-in function __build_class__>, 'True': True, 'ProcessLookupError': <class 'ProcessLookupError'>, 'min': <built-in function min>, 'FileExistsError': <class 'FileExistsError'>, 'LookupError': <class 'LookupError'>, 'GeneratorExit': <class 'GeneratorExit'>, 'ZeroDivisionError': <class 'ZeroDivisionError'>, 'dir': <built-in function dir>, 'exec': <built-in function exec>, 'locals': <built-in function locals>, 'DeprecationWarning': <class 'DeprecationWarning'>, 'ReferenceError': <class 'ReferenceError'>, 'list': <class 'list'>, 'EnvironmentError': <class 'OSError'>, 'OverflowError': <class 'OverflowError'>, 'PermissionError': <class 'PermissionError'>, 'quit': Use quit() or Ctrl-D (i.e. EOF) to exit, 'RuntimeError': <class 'RuntimeError'>, 'ConnectionError': <class 'ConnectionError'>, 'max': <built-in function max>, 'reversed': <class 'reversed'>, 'help': Type help() for interactive help, or help(object) for help about object., 'enumerate': <class 'enumerate'>, 'TimeoutError': <class 'TimeoutError'>, 'open': <built-in function open>, 'Exception': <class 'Exception'>, 'zip': <class 'zip'>, '__name__': 'builtins', 'frozenset': <class 'frozenset'>, 'IndentationError': <class 'IndentationError'>, 'SyntaxWarning': <class 'SyntaxWarning'>, 'hash': <built-in function hash>, 'type': <class 'type'>, 'BlockingIOError': <class 'BlockingIOError'>, 'vars': <built-in function vars>, 'set': <class 'set'>, 'exit': Use exit() or Ctrl-D (i.e. EOF) to exit, 'setattr': <built-in function setattr>, 'next': <built-in function next>, 'ImportError': <class 'ImportError'>, 'UserWarning': <class 'UserWarning'>, 'ValueError': <class 'ValueError'>, 'len': <built-in function len>, 'copyright': Copyright (c) 2001-2014 Python Software Foundation.
+All Rights Reserved.
+
+Copyright (c) 2000 BeOpen.com.
+All Rights Reserved.
+
+Copyright (c) 1995-2001 Corporation for National Research Initiatives.
+All Rights Reserved.
+
+Copyright (c) 1991-1995 Stichting Mathematisch Centrum, Amsterdam.
+All Rights Reserved., 'complex': <class 'complex'>, 'Ellipsis': Ellipsis, 'sum': <built-in function sum>, 'None': None, 'repr': <built-in function repr>, 'UnicodeTranslateError': <class 'UnicodeTranslateError'>, 'str': <class 'str'>, '__loader__': <class '_frozen_importlib.BuiltinImporter'>, 'iter': <built-in function iter>, 'all': <built-in function all>, 'bool': <class 'bool'>, 'ArithmeticError': <class 'ArithmeticError'>, 'BytesWarning': <class 'BytesWarning'>, 'AssertionError': <class 'AssertionError'>, 'license': See http://www.python.org/3.4/license.html, 'UnboundLocalError': <class 'UnboundLocalError'>, 'chr': <built-in function chr>, 'FileNotFoundError': <class 'FileNotFoundError'>, 'bin': <built-in function bin>, 'ConnectionAbortedError': <class 'ConnectionAbortedError'>, 'abs': <built-in function abs>, 'NotImplemented': NotImplemented}
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __setattr__
+          obj: <slot wrapper '__setattr__' of 'module' objects>
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __init__
+          obj: <slot wrapper '__init__' of 'module' objects>
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __getattribute__
+          obj: <slot wrapper '__getattribute__' of 'module' objects>
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __repr__
+          obj: <slot wrapper '__repr__' of 'module' objects>
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __new__
+          obj: <built-in method __new__ of type object at 0x9cce60>
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __delattr__
+          obj: <slot wrapper '__delattr__' of 'module' objects>
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __dir__
+          obj: <method '__dir__' of 'module' objects>
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __dict__
+          obj: <member '__dict__' of 'module' objects>
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __ne__
+          obj: <slot wrapper '__ne__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __str__
+          obj: <slot wrapper '__str__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __lt__
+          obj: <slot wrapper '__lt__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __format__
+          obj: <method '__format__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __reduce__
+          obj: <method '__reduce__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __sizeof__
+          obj: <method '__sizeof__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __subclasshook__
+          obj: <method '__subclasshook__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __hash__
+          obj: <slot wrapper '__hash__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __eq__
+          obj: <slot wrapper '__eq__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __class__
+          obj: <attribute '__class__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __reduce_ex__
+          obj: <method '__reduce_ex__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __ge__
+          obj: <slot wrapper '__ge__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __gt__
+          obj: <slot wrapper '__gt__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __le__
+          obj: <slot wrapper '__le__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_file_one.py'>
+      finish pytest_make_collect_report --> <CollectReport 'tests/test_graph/test_file_one.py' lenresult=6 outcome='passed'> [hook]
+    genitems <Function 'test_graph_should_be_graph'> [collection]
+    pytest_itemcollected [hook]
+        item: <Function 'test_graph_should_be_graph'>
+    genitems <Function 'test_graph_should_have_4_vertices'> [collection]
+    pytest_itemcollected [hook]
+        item: <Function 'test_graph_should_have_4_vertices'>
+    genitems <Function 'test_graph_should_have_4_edges'> [collection]
+    pytest_itemcollected [hook]
+        item: <Function 'test_graph_should_have_4_edges'>
+    genitems <Function 'test_graph_should_have_vertice_2'> [collection]
+    pytest_itemcollected [hook]
+        item: <Function 'test_graph_should_have_vertice_2'>
+    genitems <Function 'test_graph_should_have_edge_2_3'> [collection]
+    pytest_itemcollected [hook]
+        item: <Function 'test_graph_should_have_edge_2_3'>
+    genitems <Function 'test_graph_edge_4_1_should_be_4'> [collection]
+    pytest_itemcollected [hook]
+        item: <Function 'test_graph_edge_4_1_should_be_4'>
+    pytest_collectreport [hook]
+        report: <CollectReport 'tests/test_graph/test_file_one.py' lenresult=6 outcome='passed'>
+    genitems <Module 'tests/test_graph/test_file_two.py'> [collection]
+    pytest_collectstart [hook]
+        collector: <Module 'tests/test_graph/test_file_two.py'>
+    pytest_make_collect_report [hook]
+        collector: <Module 'tests/test_graph/test_file_two.py'>
+      find_module called for: test_file_two [assertion]
+      matched test file '/home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_graph/test_file_two.py' [assertion]
+      found cached rewritten pyc for '/home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_graph/test_file_two.py' [assertion]
+      pytest_pycollect_makeitem [hook]
+          name: __file__
+          obj: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_graph/test_file_two.py
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __loader__
+          obj: <_pytest.assertion.rewrite.AssertionRewritingHook object at 0x7f20ed64eef0>
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+      pytest_pycollect_makeitem [hook]
+          name: test_graph_should_have_vertice_2
+          obj: <function test_graph_should_have_vertice_2 at 0x7f20ed5a27b8>
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+        pytest_generate_tests [hook]
+            metafunc: <_pytest.python.Metafunc object at 0x7f20ed5b1cc0>
+        finish pytest_pycollect_makeitem --> [<Function 'test_graph_should_have_vertice_2'>] [hook]
+      pytest_pycollect_makeitem [hook]
+          name: __spec__
+          obj: ModuleSpec(name='test_file_two', loader=<_pytest.assertion.rewrite.AssertionRewritingHook object at 0x7f20ed64eef0>)
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+      pytest_pycollect_makeitem [hook]
+          name: Graph
+          obj: <class 'graph.Graph'>
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __doc__
+          obj: 
+4 5
+1 2 1
+1 4 4
+2 3 2
+2 4 1
+3 4 3
+
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+      pytest_pycollect_makeitem [hook]
+          name: test_graph_should_have_4_edges
+          obj: <function test_graph_should_have_4_edges at 0x7f20ed5a2730>
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+        pytest_generate_tests [hook]
+            metafunc: <_pytest.python.Metafunc object at 0x7f20ed5b1a58>
+        finish pytest_pycollect_makeitem --> [<Function 'test_graph_should_have_4_edges'>] [hook]
+      pytest_pycollect_makeitem [hook]
+          name: test_graph_edge_4_1_should_be_4
+          obj: <function test_graph_edge_4_1_should_be_4 at 0x7f20ed5a28c8>
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+        pytest_generate_tests [hook]
+            metafunc: <_pytest.python.Metafunc object at 0x7f20ed5b1978>
+        finish pytest_pycollect_makeitem --> [<Function 'test_graph_edge_4_1_should_be_4'>] [hook]
+      pytest_pycollect_makeitem [hook]
+          name: __name__
+          obj: test_file_two
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+      pytest_pycollect_makeitem [hook]
+          name: @py_builtins
+          obj: <module 'builtins' (built-in)>
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+      pytest_pycollect_makeitem [hook]
+          name: test_graph_should_be_graph
+          obj: <function test_graph_should_be_graph at 0x7f20ed5a26a8>
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+        pytest_generate_tests [hook]
+            metafunc: <_pytest.python.Metafunc object at 0x7f20ed5b1780>
+        finish pytest_pycollect_makeitem --> [<Function 'test_graph_should_be_graph'>] [hook]
+      pytest_pycollect_makeitem [hook]
+          name: __cached__
+          obj: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_graph/__pycache__/test_file_two.cpython-34-PYTEST.pyc
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+      pytest_pycollect_makeitem [hook]
+          name: @pytest_ar
+          obj: <module '_pytest.assertion.rewrite' from '/home/drew/.virtualenvs/prims/lib/python3.4/site-packages/_pytest/assertion/rewrite.py'>
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __package__
+          obj: 
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+      pytest_pycollect_makeitem [hook]
+          name: test_graph_should_have_4_vertices
+          obj: <function test_graph_should_have_4_vertices at 0x7f20ed5a2620>
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+        pytest_generate_tests [hook]
+            metafunc: <_pytest.python.Metafunc object at 0x7f20ed5b17b8>
+        finish pytest_pycollect_makeitem --> [<Function 'test_graph_should_have_4_vertices'>] [hook]
+      pytest_pycollect_makeitem [hook]
+          name: test_graph_should_have_edge_2_3
+          obj: <function test_graph_should_have_edge_2_3 at 0x7f20ed5a2840>
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+        pytest_generate_tests [hook]
+            metafunc: <_pytest.python.Metafunc object at 0x7f20ed5b1da0>
+        finish pytest_pycollect_makeitem --> [<Function 'test_graph_should_have_edge_2_3'>] [hook]
+      pytest_pycollect_makeitem [hook]
+          name: __builtins__
+          obj: {'TabError': <class 'TabError'>, 'staticmethod': <class 'staticmethod'>, 'dict': <class 'dict'>, 'KeyError': <class 'KeyError'>, 'input': <built-in function input>, 'SyntaxError': <class 'SyntaxError'>, '__spec__': ModuleSpec(name='builtins', loader=<class '_frozen_importlib.BuiltinImporter'>), 'sorted': <built-in function sorted>, 'FloatingPointError': <class 'FloatingPointError'>, 'BrokenPipeError': <class 'BrokenPipeError'>, 'EOFError': <class 'EOFError'>, 'ResourceWarning': <class 'ResourceWarning'>, 'getattr': <built-in function getattr>, 'tuple': <class 'tuple'>, 'callable': <built-in function callable>, 'IndexError': <class 'IndexError'>, 'UnicodeDecodeError': <class 'UnicodeDecodeError'>, 'RuntimeWarning': <class 'RuntimeWarning'>, 'AttributeError': <class 'AttributeError'>, 'OSError': <class 'OSError'>, 'format': <built-in function format>, 'TypeError': <class 'TypeError'>, '__import__': <built-in function __import__>, 'ChildProcessError': <class 'ChildProcessError'>, 'hasattr': <built-in function hasattr>, 'NameError': <class 'NameError'>, 'compile': <built-in function compile>, 'print': <built-in function print>, '__debug__': True, 'BufferError': <class 'BufferError'>, 'memoryview': <class 'memoryview'>, 'Warning': <class 'Warning'>, 'super': <class 'super'>, 'classmethod': <class 'classmethod'>, 'oct': <built-in function oct>, 'StopIteration': <class 'StopIteration'>, 'UnicodeError': <class 'UnicodeError'>, 'any': <built-in function any>, 'UnicodeEncodeError': <class 'UnicodeEncodeError'>, 'eval': <built-in function eval>, 'FutureWarning': <class 'FutureWarning'>, 'UnicodeWarning': <class 'UnicodeWarning'>, 'ConnectionRefusedError': <class 'ConnectionRefusedError'>, 'map': <class 'map'>, 'filter': <class 'filter'>, 'BaseException': <class 'BaseException'>, 'IOError': <class 'OSError'>, 'hex': <built-in function hex>, 'delattr': <built-in function delattr>, 'SystemError': <class 'SystemError'>, 'pow': <built-in function pow>, 'ascii': <built-in function ascii>, '__doc__': "Built-in functions, exceptions, and other objects.\n\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices.", 'divmod': <built-in function divmod>, 'credits':     Thanks to CWI, CNRI, BeOpen.com, Zope Corporation and a cast of thousands
+    for supporting Python development.  See www.python.org for more information., 'range': <class 'range'>, 'ConnectionResetError': <class 'ConnectionResetError'>, 'IsADirectoryError': <class 'IsADirectoryError'>, 'NotADirectoryError': <class 'NotADirectoryError'>, 'round': <built-in function round>, 'property': <class 'property'>, 'SystemExit': <class 'SystemExit'>, 'isinstance': <built-in function isinstance>, 'float': <class 'float'>, 'id': <built-in function id>, 'object': <class 'object'>, 'bytearray': <class 'bytearray'>, 'MemoryError': <class 'MemoryError'>, 'int': <class 'int'>, '__package__': '', 'issubclass': <built-in function issubclass>, 'PendingDeprecationWarning': <class 'PendingDeprecationWarning'>, 'ImportWarning': <class 'ImportWarning'>, 'globals': <built-in function globals>, 'ord': <built-in function ord>, 'InterruptedError': <class 'InterruptedError'>, 'bytes': <class 'bytes'>, 'KeyboardInterrupt': <class 'KeyboardInterrupt'>, 'False': False, 'slice': <class 'slice'>, 'NotImplementedError': <class 'NotImplementedError'>, '__build_class__': <built-in function __build_class__>, 'True': True, 'ProcessLookupError': <class 'ProcessLookupError'>, 'min': <built-in function min>, 'FileExistsError': <class 'FileExistsError'>, 'LookupError': <class 'LookupError'>, 'GeneratorExit': <class 'GeneratorExit'>, 'ZeroDivisionError': <class 'ZeroDivisionError'>, 'dir': <built-in function dir>, 'exec': <built-in function exec>, 'locals': <built-in function locals>, 'DeprecationWarning': <class 'DeprecationWarning'>, 'ReferenceError': <class 'ReferenceError'>, 'list': <class 'list'>, 'EnvironmentError': <class 'OSError'>, 'OverflowError': <class 'OverflowError'>, 'PermissionError': <class 'PermissionError'>, 'quit': Use quit() or Ctrl-D (i.e. EOF) to exit, 'RuntimeError': <class 'RuntimeError'>, 'ConnectionError': <class 'ConnectionError'>, 'max': <built-in function max>, 'reversed': <class 'reversed'>, 'help': Type help() for interactive help, or help(object) for help about object., 'enumerate': <class 'enumerate'>, 'TimeoutError': <class 'TimeoutError'>, 'open': <built-in function open>, 'Exception': <class 'Exception'>, 'zip': <class 'zip'>, '__name__': 'builtins', 'frozenset': <class 'frozenset'>, 'IndentationError': <class 'IndentationError'>, 'SyntaxWarning': <class 'SyntaxWarning'>, 'hash': <built-in function hash>, 'type': <class 'type'>, 'BlockingIOError': <class 'BlockingIOError'>, 'vars': <built-in function vars>, 'set': <class 'set'>, 'exit': Use exit() or Ctrl-D (i.e. EOF) to exit, 'setattr': <built-in function setattr>, 'next': <built-in function next>, 'ImportError': <class 'ImportError'>, 'UserWarning': <class 'UserWarning'>, 'ValueError': <class 'ValueError'>, 'len': <built-in function len>, 'copyright': Copyright (c) 2001-2014 Python Software Foundation.
+All Rights Reserved.
+
+Copyright (c) 2000 BeOpen.com.
+All Rights Reserved.
+
+Copyright (c) 1995-2001 Corporation for National Research Initiatives.
+All Rights Reserved.
+
+Copyright (c) 1991-1995 Stichting Mathematisch Centrum, Amsterdam.
+All Rights Reserved., 'complex': <class 'complex'>, 'Ellipsis': Ellipsis, 'sum': <built-in function sum>, 'None': None, 'repr': <built-in function repr>, 'UnicodeTranslateError': <class 'UnicodeTranslateError'>, 'str': <class 'str'>, '__loader__': <class '_frozen_importlib.BuiltinImporter'>, 'iter': <built-in function iter>, 'all': <built-in function all>, 'bool': <class 'bool'>, 'ArithmeticError': <class 'ArithmeticError'>, 'BytesWarning': <class 'BytesWarning'>, 'AssertionError': <class 'AssertionError'>, 'license': See http://www.python.org/3.4/license.html, 'UnboundLocalError': <class 'UnboundLocalError'>, 'chr': <built-in function chr>, 'FileNotFoundError': <class 'FileNotFoundError'>, 'bin': <built-in function bin>, 'ConnectionAbortedError': <class 'ConnectionAbortedError'>, 'abs': <built-in function abs>, 'NotImplemented': NotImplemented}
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __setattr__
+          obj: <slot wrapper '__setattr__' of 'module' objects>
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __init__
+          obj: <slot wrapper '__init__' of 'module' objects>
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __getattribute__
+          obj: <slot wrapper '__getattribute__' of 'module' objects>
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __repr__
+          obj: <slot wrapper '__repr__' of 'module' objects>
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __new__
+          obj: <built-in method __new__ of type object at 0x9cce60>
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __delattr__
+          obj: <slot wrapper '__delattr__' of 'module' objects>
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __dir__
+          obj: <method '__dir__' of 'module' objects>
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __dict__
+          obj: <member '__dict__' of 'module' objects>
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __ne__
+          obj: <slot wrapper '__ne__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __str__
+          obj: <slot wrapper '__str__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __lt__
+          obj: <slot wrapper '__lt__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __format__
+          obj: <method '__format__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __reduce__
+          obj: <method '__reduce__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __sizeof__
+          obj: <method '__sizeof__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __subclasshook__
+          obj: <method '__subclasshook__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __hash__
+          obj: <slot wrapper '__hash__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __eq__
+          obj: <slot wrapper '__eq__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __class__
+          obj: <attribute '__class__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __reduce_ex__
+          obj: <method '__reduce_ex__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __ge__
+          obj: <slot wrapper '__ge__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __gt__
+          obj: <slot wrapper '__gt__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __le__
+          obj: <slot wrapper '__le__' of 'object' objects>
+          collector: <Module 'tests/test_graph/test_file_two.py'>
+      finish pytest_make_collect_report --> <CollectReport 'tests/test_graph/test_file_two.py' lenresult=6 outcome='passed'> [hook]
+    genitems <Function 'test_graph_should_be_graph'> [collection]
+    pytest_itemcollected [hook]
+        item: <Function 'test_graph_should_be_graph'>
+    genitems <Function 'test_graph_should_have_4_vertices'> [collection]
+    pytest_itemcollected [hook]
+        item: <Function 'test_graph_should_have_4_vertices'>
+    genitems <Function 'test_graph_should_have_4_edges'> [collection]
+    pytest_itemcollected [hook]
+        item: <Function 'test_graph_should_have_4_edges'>
+    genitems <Function 'test_graph_should_have_vertice_2'> [collection]
+    pytest_itemcollected [hook]
+        item: <Function 'test_graph_should_have_vertice_2'>
+    genitems <Function 'test_graph_should_have_edge_2_3'> [collection]
+    pytest_itemcollected [hook]
+        item: <Function 'test_graph_should_have_edge_2_3'>
+    genitems <Function 'test_graph_edge_4_1_should_be_4'> [collection]
+    pytest_itemcollected [hook]
+        item: <Function 'test_graph_edge_4_1_should_be_4'>
+    pytest_collectreport [hook]
+        report: <CollectReport 'tests/test_graph/test_file_two.py' lenresult=6 outcome='passed'>
+    genitems <Module 'tests/test_prims/test_abcd.py'> [collection]
+    pytest_collectstart [hook]
+        collector: <Module 'tests/test_prims/test_abcd.py'>
+    pytest_make_collect_report [hook]
+        collector: <Module 'tests/test_prims/test_abcd.py'>
+      find_module called for: test_abcd [assertion]
+      matched test file '/home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_prims/test_abcd.py' [assertion]
+      found cached rewritten pyc for '/home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_prims/test_abcd.py' [assertion]
+      find_module called for: prims [assertion]
+      find_module called for: mst [assertion]
+      pytest_pycollect_makeitem [hook]
+          name: __file__
+          obj: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_prims/test_abcd.py
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+      pytest_pycollect_makeitem [hook]
+          name: prims
+          obj: <function prims at 0x7f20ed5a2ae8>
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __loader__
+          obj: <_pytest.assertion.rewrite.AssertionRewritingHook object at 0x7f20ed64eef0>
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+      pytest_pycollect_makeitem [hook]
+          name: test_should_find_cost_of_11
+          obj: <function test_should_find_cost_of_11 at 0x7f20ed5a2a60>
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+        pytest_generate_tests [hook]
+            metafunc: <_pytest.python.Metafunc object at 0x7f20ed5b84e0>
+        finish pytest_pycollect_makeitem --> [<Function 'test_should_find_cost_of_11'>] [hook]
+      pytest_pycollect_makeitem [hook]
+          name: __spec__
+          obj: ModuleSpec(name='test_abcd', loader=<_pytest.assertion.rewrite.AssertionRewritingHook object at 0x7f20ed64eef0>)
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __doc__
+          obj: None
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __name__
+          obj: test_abcd
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+      pytest_pycollect_makeitem [hook]
+          name: @py_builtins
+          obj: <module 'builtins' (built-in)>
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+      pytest_pycollect_makeitem [hook]
+          name: test_should_find_edges
+          obj: <function test_should_find_edges at 0x7f20ed5a2bf8>
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+        pytest_generate_tests [hook]
+            metafunc: <_pytest.python.Metafunc object at 0x7f20ed5b8390>
+        finish pytest_pycollect_makeitem --> [<Function 'test_should_find_edges'>] [hook]
+      pytest_pycollect_makeitem [hook]
+          name: test_should_find_vertices_A_B_C_D
+          obj: <function test_should_find_vertices_A_B_C_D at 0x7f20ed5a29d8>
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+        pytest_generate_tests [hook]
+            metafunc: <_pytest.python.Metafunc object at 0x7f20ed5b84a8>
+        finish pytest_pycollect_makeitem --> [<Function 'test_should_find_vertices_A_B_C_D'>] [hook]
+      pytest_pycollect_makeitem [hook]
+          name: __cached__
+          obj: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/test_prims/__pycache__/test_abcd.cpython-34-PYTEST.pyc
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+      pytest_pycollect_makeitem [hook]
+          name: @pytest_ar
+          obj: <module '_pytest.assertion.rewrite' from '/home/drew/.virtualenvs/prims/lib/python3.4/site-packages/_pytest/assertion/rewrite.py'>
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __package__
+          obj: 
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __builtins__
+          obj: {'TabError': <class 'TabError'>, 'staticmethod': <class 'staticmethod'>, 'dict': <class 'dict'>, 'KeyError': <class 'KeyError'>, 'input': <built-in function input>, 'SyntaxError': <class 'SyntaxError'>, '__spec__': ModuleSpec(name='builtins', loader=<class '_frozen_importlib.BuiltinImporter'>), 'sorted': <built-in function sorted>, 'FloatingPointError': <class 'FloatingPointError'>, 'BrokenPipeError': <class 'BrokenPipeError'>, 'EOFError': <class 'EOFError'>, 'ResourceWarning': <class 'ResourceWarning'>, 'getattr': <built-in function getattr>, 'tuple': <class 'tuple'>, 'callable': <built-in function callable>, 'IndexError': <class 'IndexError'>, 'UnicodeDecodeError': <class 'UnicodeDecodeError'>, 'RuntimeWarning': <class 'RuntimeWarning'>, 'AttributeError': <class 'AttributeError'>, 'OSError': <class 'OSError'>, 'format': <built-in function format>, 'TypeError': <class 'TypeError'>, '__import__': <built-in function __import__>, 'ChildProcessError': <class 'ChildProcessError'>, 'hasattr': <built-in function hasattr>, 'NameError': <class 'NameError'>, 'compile': <built-in function compile>, 'print': <built-in function print>, '__debug__': True, 'BufferError': <class 'BufferError'>, 'memoryview': <class 'memoryview'>, 'Warning': <class 'Warning'>, 'super': <class 'super'>, 'classmethod': <class 'classmethod'>, 'oct': <built-in function oct>, 'StopIteration': <class 'StopIteration'>, 'UnicodeError': <class 'UnicodeError'>, 'any': <built-in function any>, 'UnicodeEncodeError': <class 'UnicodeEncodeError'>, 'eval': <built-in function eval>, 'FutureWarning': <class 'FutureWarning'>, 'UnicodeWarning': <class 'UnicodeWarning'>, 'ConnectionRefusedError': <class 'ConnectionRefusedError'>, 'map': <class 'map'>, 'filter': <class 'filter'>, 'BaseException': <class 'BaseException'>, 'IOError': <class 'OSError'>, 'hex': <built-in function hex>, 'delattr': <built-in function delattr>, 'SystemError': <class 'SystemError'>, 'pow': <built-in function pow>, 'ascii': <built-in function ascii>, '__doc__': "Built-in functions, exceptions, and other objects.\n\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices.", 'divmod': <built-in function divmod>, 'credits':     Thanks to CWI, CNRI, BeOpen.com, Zope Corporation and a cast of thousands
+    for supporting Python development.  See www.python.org for more information., 'range': <class 'range'>, 'ConnectionResetError': <class 'ConnectionResetError'>, 'IsADirectoryError': <class 'IsADirectoryError'>, 'NotADirectoryError': <class 'NotADirectoryError'>, 'round': <built-in function round>, 'property': <class 'property'>, 'SystemExit': <class 'SystemExit'>, 'isinstance': <built-in function isinstance>, 'float': <class 'float'>, 'id': <built-in function id>, 'object': <class 'object'>, 'bytearray': <class 'bytearray'>, 'MemoryError': <class 'MemoryError'>, 'int': <class 'int'>, '__package__': '', 'issubclass': <built-in function issubclass>, 'PendingDeprecationWarning': <class 'PendingDeprecationWarning'>, 'ImportWarning': <class 'ImportWarning'>, 'globals': <built-in function globals>, 'ord': <built-in function ord>, 'InterruptedError': <class 'InterruptedError'>, 'bytes': <class 'bytes'>, 'KeyboardInterrupt': <class 'KeyboardInterrupt'>, 'False': False, 'slice': <class 'slice'>, 'NotImplementedError': <class 'NotImplementedError'>, '__build_class__': <built-in function __build_class__>, 'True': True, 'ProcessLookupError': <class 'ProcessLookupError'>, 'min': <built-in function min>, 'FileExistsError': <class 'FileExistsError'>, 'LookupError': <class 'LookupError'>, 'GeneratorExit': <class 'GeneratorExit'>, 'ZeroDivisionError': <class 'ZeroDivisionError'>, 'dir': <built-in function dir>, 'exec': <built-in function exec>, 'locals': <built-in function locals>, 'DeprecationWarning': <class 'DeprecationWarning'>, 'ReferenceError': <class 'ReferenceError'>, 'list': <class 'list'>, 'EnvironmentError': <class 'OSError'>, 'OverflowError': <class 'OverflowError'>, 'PermissionError': <class 'PermissionError'>, 'quit': Use quit() or Ctrl-D (i.e. EOF) to exit, 'RuntimeError': <class 'RuntimeError'>, 'ConnectionError': <class 'ConnectionError'>, 'max': <built-in function max>, 'reversed': <class 'reversed'>, 'help': Type help() for interactive help, or help(object) for help about object., 'enumerate': <class 'enumerate'>, 'TimeoutError': <class 'TimeoutError'>, 'open': <built-in function open>, 'Exception': <class 'Exception'>, 'zip': <class 'zip'>, '__name__': 'builtins', 'frozenset': <class 'frozenset'>, 'IndentationError': <class 'IndentationError'>, 'SyntaxWarning': <class 'SyntaxWarning'>, 'hash': <built-in function hash>, 'type': <class 'type'>, 'BlockingIOError': <class 'BlockingIOError'>, 'vars': <built-in function vars>, 'set': <class 'set'>, 'exit': Use exit() or Ctrl-D (i.e. EOF) to exit, 'setattr': <built-in function setattr>, 'next': <built-in function next>, 'ImportError': <class 'ImportError'>, 'UserWarning': <class 'UserWarning'>, 'ValueError': <class 'ValueError'>, 'len': <built-in function len>, 'copyright': Copyright (c) 2001-2014 Python Software Foundation.
+All Rights Reserved.
+
+Copyright (c) 2000 BeOpen.com.
+All Rights Reserved.
+
+Copyright (c) 1995-2001 Corporation for National Research Initiatives.
+All Rights Reserved.
+
+Copyright (c) 1991-1995 Stichting Mathematisch Centrum, Amsterdam.
+All Rights Reserved., 'complex': <class 'complex'>, 'Ellipsis': Ellipsis, 'sum': <built-in function sum>, 'None': None, 'repr': <built-in function repr>, 'UnicodeTranslateError': <class 'UnicodeTranslateError'>, 'str': <class 'str'>, '__loader__': <class '_frozen_importlib.BuiltinImporter'>, 'iter': <built-in function iter>, 'all': <built-in function all>, 'bool': <class 'bool'>, 'ArithmeticError': <class 'ArithmeticError'>, 'BytesWarning': <class 'BytesWarning'>, 'AssertionError': <class 'AssertionError'>, 'license': See http://www.python.org/3.4/license.html, 'UnboundLocalError': <class 'UnboundLocalError'>, 'chr': <built-in function chr>, 'FileNotFoundError': <class 'FileNotFoundError'>, 'bin': <built-in function bin>, 'ConnectionAbortedError': <class 'ConnectionAbortedError'>, 'abs': <built-in function abs>, 'NotImplemented': NotImplemented}
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __setattr__
+          obj: <slot wrapper '__setattr__' of 'module' objects>
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __init__
+          obj: <slot wrapper '__init__' of 'module' objects>
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __getattribute__
+          obj: <slot wrapper '__getattribute__' of 'module' objects>
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __repr__
+          obj: <slot wrapper '__repr__' of 'module' objects>
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __new__
+          obj: <built-in method __new__ of type object at 0x9cce60>
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __delattr__
+          obj: <slot wrapper '__delattr__' of 'module' objects>
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __dir__
+          obj: <method '__dir__' of 'module' objects>
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __dict__
+          obj: <member '__dict__' of 'module' objects>
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __ne__
+          obj: <slot wrapper '__ne__' of 'object' objects>
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __str__
+          obj: <slot wrapper '__str__' of 'object' objects>
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __lt__
+          obj: <slot wrapper '__lt__' of 'object' objects>
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __format__
+          obj: <method '__format__' of 'object' objects>
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __reduce__
+          obj: <method '__reduce__' of 'object' objects>
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __sizeof__
+          obj: <method '__sizeof__' of 'object' objects>
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __subclasshook__
+          obj: <method '__subclasshook__' of 'object' objects>
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __hash__
+          obj: <slot wrapper '__hash__' of 'object' objects>
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __eq__
+          obj: <slot wrapper '__eq__' of 'object' objects>
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __class__
+          obj: <attribute '__class__' of 'object' objects>
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __reduce_ex__
+          obj: <method '__reduce_ex__' of 'object' objects>
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __ge__
+          obj: <slot wrapper '__ge__' of 'object' objects>
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __gt__
+          obj: <slot wrapper '__gt__' of 'object' objects>
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __le__
+          obj: <slot wrapper '__le__' of 'object' objects>
+          collector: <Module 'tests/test_prims/test_abcd.py'>
+      finish pytest_make_collect_report --> <CollectReport 'tests/test_prims/test_abcd.py' lenresult=3 outcome='passed'> [hook]
+    genitems <Function 'test_should_find_cost_of_11'> [collection]
+    pytest_itemcollected [hook]
+        item: <Function 'test_should_find_cost_of_11'>
+    genitems <Function 'test_should_find_vertices_A_B_C_D'> [collection]
+    pytest_itemcollected [hook]
+        item: <Function 'test_should_find_vertices_A_B_C_D'>
+    genitems <Function 'test_should_find_edges'> [collection]
+    pytest_itemcollected [hook]
+        item: <Function 'test_should_find_edges'>
+    pytest_collectreport [hook]
+        report: <CollectReport 'tests/test_prims/test_abcd.py' lenresult=3 outcome='passed'>
+    genitems <Module 'tests/tests_integration/test_one.py'> [collection]
+    pytest_collectstart [hook]
+        collector: <Module 'tests/tests_integration/test_one.py'>
+    pytest_make_collect_report [hook]
+        collector: <Module 'tests/tests_integration/test_one.py'>
+      find_module called for: test_one [assertion]
+      matched test file '/home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/tests_integration/test_one.py' [assertion]
+      found cached rewritten pyc for '/home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/tests_integration/test_one.py' [assertion]
+      pytest_pycollect_makeitem [hook]
+          name: __file__
+          obj: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/tests_integration/test_one.py
+          collector: <Module 'tests/tests_integration/test_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: prims
+          obj: <function prims at 0x7f20ed5a2ae8>
+          collector: <Module 'tests/tests_integration/test_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __loader__
+          obj: <_pytest.assertion.rewrite.AssertionRewritingHook object at 0x7f20ed64eef0>
+          collector: <Module 'tests/tests_integration/test_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __spec__
+          obj: ModuleSpec(name='test_one', loader=<_pytest.assertion.rewrite.AssertionRewritingHook object at 0x7f20ed64eef0>)
+          collector: <Module 'tests/tests_integration/test_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __doc__
+          obj: 
+4 4
+1 2 1
+2 3 2
+3 4 3
+4 1 4
+
+          collector: <Module 'tests/tests_integration/test_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __name__
+          obj: test_one
+          collector: <Module 'tests/tests_integration/test_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: @py_builtins
+          obj: <module 'builtins' (built-in)>
+          collector: <Module 'tests/tests_integration/test_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __cached__
+          obj: /home/drew/education/coursera/stanford/algs2/week1/programming/prims/tests/tests_integration/__pycache__/test_one.cpython-34-PYTEST.pyc
+          collector: <Module 'tests/tests_integration/test_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: @pytest_ar
+          obj: <module '_pytest.assertion.rewrite' from '/home/drew/.virtualenvs/prims/lib/python3.4/site-packages/_pytest/assertion/rewrite.py'>
+          collector: <Module 'tests/tests_integration/test_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __package__
+          obj: 
+          collector: <Module 'tests/tests_integration/test_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: test_prims_should_find_cost_of_6
+          obj: <function test_prims_should_find_cost_of_6 at 0x7f20ed5a2d08>
+          collector: <Module 'tests/tests_integration/test_one.py'>
+        pytest_generate_tests [hook]
+            metafunc: <_pytest.python.Metafunc object at 0x7f20ed5b8940>
+        finish pytest_pycollect_makeitem --> [<Function 'test_prims_should_find_cost_of_6'>] [hook]
+      pytest_pycollect_makeitem [hook]
+          name: __builtins__
+          obj: {'TabError': <class 'TabError'>, 'staticmethod': <class 'staticmethod'>, 'dict': <class 'dict'>, 'KeyError': <class 'KeyError'>, 'input': <built-in function input>, 'SyntaxError': <class 'SyntaxError'>, '__spec__': ModuleSpec(name='builtins', loader=<class '_frozen_importlib.BuiltinImporter'>), 'sorted': <built-in function sorted>, 'FloatingPointError': <class 'FloatingPointError'>, 'BrokenPipeError': <class 'BrokenPipeError'>, 'EOFError': <class 'EOFError'>, 'ResourceWarning': <class 'ResourceWarning'>, 'getattr': <built-in function getattr>, 'tuple': <class 'tuple'>, 'callable': <built-in function callable>, 'IndexError': <class 'IndexError'>, 'UnicodeDecodeError': <class 'UnicodeDecodeError'>, 'RuntimeWarning': <class 'RuntimeWarning'>, 'AttributeError': <class 'AttributeError'>, 'OSError': <class 'OSError'>, 'format': <built-in function format>, 'TypeError': <class 'TypeError'>, '__import__': <built-in function __import__>, 'ChildProcessError': <class 'ChildProcessError'>, 'hasattr': <built-in function hasattr>, 'NameError': <class 'NameError'>, 'compile': <built-in function compile>, 'print': <built-in function print>, '__debug__': True, 'BufferError': <class 'BufferError'>, 'memoryview': <class 'memoryview'>, 'Warning': <class 'Warning'>, 'super': <class 'super'>, 'classmethod': <class 'classmethod'>, 'oct': <built-in function oct>, 'StopIteration': <class 'StopIteration'>, 'UnicodeError': <class 'UnicodeError'>, 'any': <built-in function any>, 'UnicodeEncodeError': <class 'UnicodeEncodeError'>, 'eval': <built-in function eval>, 'FutureWarning': <class 'FutureWarning'>, 'UnicodeWarning': <class 'UnicodeWarning'>, 'ConnectionRefusedError': <class 'ConnectionRefusedError'>, 'map': <class 'map'>, 'filter': <class 'filter'>, 'BaseException': <class 'BaseException'>, 'IOError': <class 'OSError'>, 'hex': <built-in function hex>, 'delattr': <built-in function delattr>, 'SystemError': <class 'SystemError'>, 'pow': <built-in function pow>, 'ascii': <built-in function ascii>, '__doc__': "Built-in functions, exceptions, and other objects.\n\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices.", 'divmod': <built-in function divmod>, 'credits':     Thanks to CWI, CNRI, BeOpen.com, Zope Corporation and a cast of thousands
+    for supporting Python development.  See www.python.org for more information., 'range': <class 'range'>, 'ConnectionResetError': <class 'ConnectionResetError'>, 'IsADirectoryError': <class 'IsADirectoryError'>, 'NotADirectoryError': <class 'NotADirectoryError'>, 'round': <built-in function round>, 'property': <class 'property'>, 'SystemExit': <class 'SystemExit'>, 'isinstance': <built-in function isinstance>, 'float': <class 'float'>, 'id': <built-in function id>, 'object': <class 'object'>, 'bytearray': <class 'bytearray'>, 'MemoryError': <class 'MemoryError'>, 'int': <class 'int'>, '__package__': '', 'issubclass': <built-in function issubclass>, 'PendingDeprecationWarning': <class 'PendingDeprecationWarning'>, 'ImportWarning': <class 'ImportWarning'>, 'globals': <built-in function globals>, 'ord': <built-in function ord>, 'InterruptedError': <class 'InterruptedError'>, 'bytes': <class 'bytes'>, 'KeyboardInterrupt': <class 'KeyboardInterrupt'>, 'False': False, 'slice': <class 'slice'>, 'NotImplementedError': <class 'NotImplementedError'>, '__build_class__': <built-in function __build_class__>, 'True': True, 'ProcessLookupError': <class 'ProcessLookupError'>, 'min': <built-in function min>, 'FileExistsError': <class 'FileExistsError'>, 'LookupError': <class 'LookupError'>, 'GeneratorExit': <class 'GeneratorExit'>, 'ZeroDivisionError': <class 'ZeroDivisionError'>, 'dir': <built-in function dir>, 'exec': <built-in function exec>, 'locals': <built-in function locals>, 'DeprecationWarning': <class 'DeprecationWarning'>, 'ReferenceError': <class 'ReferenceError'>, 'list': <class 'list'>, 'EnvironmentError': <class 'OSError'>, 'OverflowError': <class 'OverflowError'>, 'PermissionError': <class 'PermissionError'>, 'quit': Use quit() or Ctrl-D (i.e. EOF) to exit, 'RuntimeError': <class 'RuntimeError'>, 'ConnectionError': <class 'ConnectionError'>, 'max': <built-in function max>, 'reversed': <class 'reversed'>, 'help': Type help() for interactive help, or help(object) for help about object., 'enumerate': <class 'enumerate'>, 'TimeoutError': <class 'TimeoutError'>, 'open': <built-in function open>, 'Exception': <class 'Exception'>, 'zip': <class 'zip'>, '__name__': 'builtins', 'frozenset': <class 'frozenset'>, 'IndentationError': <class 'IndentationError'>, 'SyntaxWarning': <class 'SyntaxWarning'>, 'hash': <built-in function hash>, 'type': <class 'type'>, 'BlockingIOError': <class 'BlockingIOError'>, 'vars': <built-in function vars>, 'set': <class 'set'>, 'exit': Use exit() or Ctrl-D (i.e. EOF) to exit, 'setattr': <built-in function setattr>, 'next': <built-in function next>, 'ImportError': <class 'ImportError'>, 'UserWarning': <class 'UserWarning'>, 'ValueError': <class 'ValueError'>, 'len': <built-in function len>, 'copyright': Copyright (c) 2001-2014 Python Software Foundation.
+All Rights Reserved.
+
+Copyright (c) 2000 BeOpen.com.
+All Rights Reserved.
+
+Copyright (c) 1995-2001 Corporation for National Research Initiatives.
+All Rights Reserved.
+
+Copyright (c) 1991-1995 Stichting Mathematisch Centrum, Amsterdam.
+All Rights Reserved., 'complex': <class 'complex'>, 'Ellipsis': Ellipsis, 'sum': <built-in function sum>, 'None': None, 'repr': <built-in function repr>, 'UnicodeTranslateError': <class 'UnicodeTranslateError'>, 'str': <class 'str'>, '__loader__': <class '_frozen_importlib.BuiltinImporter'>, 'iter': <built-in function iter>, 'all': <built-in function all>, 'bool': <class 'bool'>, 'ArithmeticError': <class 'ArithmeticError'>, 'BytesWarning': <class 'BytesWarning'>, 'AssertionError': <class 'AssertionError'>, 'license': See http://www.python.org/3.4/license.html, 'UnboundLocalError': <class 'UnboundLocalError'>, 'chr': <built-in function chr>, 'FileNotFoundError': <class 'FileNotFoundError'>, 'bin': <built-in function bin>, 'ConnectionAbortedError': <class 'ConnectionAbortedError'>, 'abs': <built-in function abs>, 'NotImplemented': NotImplemented}
+          collector: <Module 'tests/tests_integration/test_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __setattr__
+          obj: <slot wrapper '__setattr__' of 'module' objects>
+          collector: <Module 'tests/tests_integration/test_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __init__
+          obj: <slot wrapper '__init__' of 'module' objects>
+          collector: <Module 'tests/tests_integration/test_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __getattribute__
+          obj: <slot wrapper '__getattribute__' of 'module' objects>
+          collector: <Module 'tests/tests_integration/test_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __repr__
+          obj: <slot wrapper '__repr__' of 'module' objects>
+          collector: <Module 'tests/tests_integration/test_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __new__
+          obj: <built-in method __new__ of type object at 0x9cce60>
+          collector: <Module 'tests/tests_integration/test_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __delattr__
+          obj: <slot wrapper '__delattr__' of 'module' objects>
+          collector: <Module 'tests/tests_integration/test_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __dir__
+          obj: <method '__dir__' of 'module' objects>
+          collector: <Module 'tests/tests_integration/test_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __dict__
+          obj: <member '__dict__' of 'module' objects>
+          collector: <Module 'tests/tests_integration/test_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __ne__
+          obj: <slot wrapper '__ne__' of 'object' objects>
+          collector: <Module 'tests/tests_integration/test_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __str__
+          obj: <slot wrapper '__str__' of 'object' objects>
+          collector: <Module 'tests/tests_integration/test_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __lt__
+          obj: <slot wrapper '__lt__' of 'object' objects>
+          collector: <Module 'tests/tests_integration/test_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __format__
+          obj: <method '__format__' of 'object' objects>
+          collector: <Module 'tests/tests_integration/test_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __reduce__
+          obj: <method '__reduce__' of 'object' objects>
+          collector: <Module 'tests/tests_integration/test_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __sizeof__
+          obj: <method '__sizeof__' of 'object' objects>
+          collector: <Module 'tests/tests_integration/test_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __subclasshook__
+          obj: <method '__subclasshook__' of 'object' objects>
+          collector: <Module 'tests/tests_integration/test_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __hash__
+          obj: <slot wrapper '__hash__' of 'object' objects>
+          collector: <Module 'tests/tests_integration/test_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __eq__
+          obj: <slot wrapper '__eq__' of 'object' objects>
+          collector: <Module 'tests/tests_integration/test_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __class__
+          obj: <attribute '__class__' of 'object' objects>
+          collector: <Module 'tests/tests_integration/test_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __reduce_ex__
+          obj: <method '__reduce_ex__' of 'object' objects>
+          collector: <Module 'tests/tests_integration/test_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __ge__
+          obj: <slot wrapper '__ge__' of 'object' objects>
+          collector: <Module 'tests/tests_integration/test_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __gt__
+          obj: <slot wrapper '__gt__' of 'object' objects>
+          collector: <Module 'tests/tests_integration/test_one.py'>
+      pytest_pycollect_makeitem [hook]
+          name: __le__
+          obj: <slot wrapper '__le__' of 'object' objects>
+          collector: <Module 'tests/tests_integration/test_one.py'>
+      finish pytest_make_collect_report --> <CollectReport 'tests/tests_integration/test_one.py' lenresult=1 outcome='passed'> [hook]
+    genitems <Function 'test_prims_should_find_cost_of_6'> [collection]
+    pytest_itemcollected [hook]
+        item: <Function 'test_prims_should_find_cost_of_6'>
+    pytest_collectreport [hook]
+        report: <CollectReport 'tests/tests_integration/test_one.py' lenresult=1 outcome='passed'>
+    pytest_collection_modifyitems [hook]
+        config: <_pytest.config.Config object at 0x7f20edffcda0>
+        items: [<Function 'test_simple_que_should_be_simple_que'>, <Function 'test_simple_que_should_find_cheapest_spanning_egde'>, <Function 'test_simple_que_should_find_cheapest_spanning_vertice'>, <Function 'test_simple_que_should_find_cheapest_spanning_egde_cost'>, <Function 'test_graph_should_be_graph'>, <Function 'test_graph_should_have_4_vertices'>, <Function 'test_graph_should_have_4_edges'>, <Function 'test_graph_should_have_vertice_2'>, <Function 'test_graph_should_have_edge_2_3'>, <Function 'test_graph_edge_4_1_should_be_4'>, <Function 'test_graph_should_be_graph'>, <Function 'test_graph_should_have_4_vertices'>, <Function 'test_graph_should_have_4_edges'>, <Function 'test_graph_should_have_vertice_2'>, <Function 'test_graph_should_have_edge_2_3'>, <Function 'test_graph_edge_4_1_should_be_4'>, <Function 'test_should_find_cost_of_11'>, <Function 'test_should_find_vertices_A_B_C_D'>, <Function 'test_should_find_edges'>, <Function 'test_prims_should_find_cost_of_6'>]
+        session: <Session 'prims'>
+    pytest_collection_finish [hook]
+        session: <Session 'prims'>
+    finish pytest_collection --> [<Function 'test_simple_que_should_be_simple_que'>, <Function 'test_simple_que_should_find_cheapest_spanning_egde'>, <Function 'test_simple_que_should_find_cheapest_spanning_vertice'>, <Function 'test_simple_que_should_find_cheapest_spanning_egde_cost'>, <Function 'test_graph_should_be_graph'>, <Function 'test_graph_should_have_4_vertices'>, <Function 'test_graph_should_have_4_edges'>, <Function 'test_graph_should_have_vertice_2'>, <Function 'test_graph_should_have_edge_2_3'>, <Function 'test_graph_edge_4_1_should_be_4'>, <Function 'test_graph_should_be_graph'>, <Function 'test_graph_should_have_4_vertices'>, <Function 'test_graph_should_have_4_edges'>, <Function 'test_graph_should_have_vertice_2'>, <Function 'test_graph_should_have_edge_2_3'>, <Function 'test_graph_edge_4_1_should_be_4'>, <Function 'test_should_find_cost_of_11'>, <Function 'test_should_find_vertices_A_B_C_D'>, <Function 'test_should_find_edges'>, <Function 'test_prims_should_find_cost_of_6'>] [hook]
+  pytest_runtestloop [hook]
+      session: <Session 'prims'>
+    pytest_runtest_protocol [hook]
+        item: <Function 'test_simple_que_should_be_simple_que'>
+        nextitem: <Function 'test_simple_que_should_find_cheapest_spanning_egde'>
+      pytest_runtest_logstart [hook]
+          location: ('tests/test_simple_que.py', 4, 'test_simple_que_should_be_simple_que')
+          nodeid: tests/test_simple_que.py::test_simple_que_should_be_simple_que
+      pytest_runtest_setup [hook]
+          item: <Function 'test_simple_que_should_be_simple_que'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_simple_que_should_be_simple_que'>
+          call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_simple_que.py::test_simple_que_should_be_simple_que' when='setup' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_simple_que.py::test_simple_que_should_be_simple_que' when='setup' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_simple_que.py::test_simple_que_should_be_simple_que' when='setup' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      pytest_runtest_call [hook]
+          item: <Function 'test_simple_que_should_be_simple_que'>
+        pytest_pyfunc_call [hook]
+            pyfuncitem: <Function 'test_simple_que_should_be_simple_que'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_simple_que_should_be_simple_que'>
+          call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_simple_que.py::test_simple_que_should_be_simple_que' when='call' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_simple_que.py::test_simple_que_should_be_simple_que' when='call' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_simple_que.py::test_simple_que_should_be_simple_que' when='call' outcome='passed'>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+      pytest_runtest_teardown [hook]
+          item: <Function 'test_simple_que_should_be_simple_que'>
+          nextitem: <Function 'test_simple_que_should_find_cheapest_spanning_egde'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_simple_que_should_be_simple_que'>
+          call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_simple_que.py::test_simple_que_should_be_simple_que' when='teardown' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_simple_que.py::test_simple_que_should_be_simple_que' when='teardown' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_simple_que.py::test_simple_que_should_be_simple_que' when='teardown' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    pytest_runtest_protocol [hook]
+        item: <Function 'test_simple_que_should_find_cheapest_spanning_egde'>
+        nextitem: <Function 'test_simple_que_should_find_cheapest_spanning_vertice'>
+      pytest_runtest_logstart [hook]
+          location: ('tests/test_simple_que.py', 8, 'test_simple_que_should_find_cheapest_spanning_egde')
+          nodeid: tests/test_simple_que.py::test_simple_que_should_find_cheapest_spanning_egde
+      pytest_runtest_setup [hook]
+          item: <Function 'test_simple_que_should_find_cheapest_spanning_egde'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_simple_que_should_find_cheapest_spanning_egde'>
+          call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_simple_que.py::test_simple_que_should_find_cheapest_spanning_egde' when='setup' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_simple_que.py::test_simple_que_should_find_cheapest_spanning_egde' when='setup' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_simple_que.py::test_simple_que_should_find_cheapest_spanning_egde' when='setup' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      pytest_runtest_call [hook]
+          item: <Function 'test_simple_que_should_find_cheapest_spanning_egde'>
+        pytest_pyfunc_call [hook]
+            pyfuncitem: <Function 'test_simple_que_should_find_cheapest_spanning_egde'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_simple_que_should_find_cheapest_spanning_egde'>
+          call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_simple_que.py::test_simple_que_should_find_cheapest_spanning_egde' when='call' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_simple_que.py::test_simple_que_should_find_cheapest_spanning_egde' when='call' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_simple_que.py::test_simple_que_should_find_cheapest_spanning_egde' when='call' outcome='passed'>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+      pytest_runtest_teardown [hook]
+          item: <Function 'test_simple_que_should_find_cheapest_spanning_egde'>
+          nextitem: <Function 'test_simple_que_should_find_cheapest_spanning_vertice'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_simple_que_should_find_cheapest_spanning_egde'>
+          call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_simple_que.py::test_simple_que_should_find_cheapest_spanning_egde' when='teardown' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_simple_que.py::test_simple_que_should_find_cheapest_spanning_egde' when='teardown' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_simple_que.py::test_simple_que_should_find_cheapest_spanning_egde' when='teardown' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    pytest_runtest_protocol [hook]
+        item: <Function 'test_simple_que_should_find_cheapest_spanning_vertice'>
+        nextitem: <Function 'test_simple_que_should_find_cheapest_spanning_egde_cost'>
+      pytest_runtest_logstart [hook]
+          location: ('tests/test_simple_que.py', 13, 'test_simple_que_should_find_cheapest_spanning_vertice')
+          nodeid: tests/test_simple_que.py::test_simple_que_should_find_cheapest_spanning_vertice
+      pytest_runtest_setup [hook]
+          item: <Function 'test_simple_que_should_find_cheapest_spanning_vertice'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_simple_que_should_find_cheapest_spanning_vertice'>
+          call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_simple_que.py::test_simple_que_should_find_cheapest_spanning_vertice' when='setup' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_simple_que.py::test_simple_que_should_find_cheapest_spanning_vertice' when='setup' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_simple_que.py::test_simple_que_should_find_cheapest_spanning_vertice' when='setup' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      pytest_runtest_call [hook]
+          item: <Function 'test_simple_que_should_find_cheapest_spanning_vertice'>
+        pytest_pyfunc_call [hook]
+            pyfuncitem: <Function 'test_simple_que_should_find_cheapest_spanning_vertice'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_simple_que_should_find_cheapest_spanning_vertice'>
+          call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_simple_que.py::test_simple_que_should_find_cheapest_spanning_vertice' when='call' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_simple_que.py::test_simple_que_should_find_cheapest_spanning_vertice' when='call' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_simple_que.py::test_simple_que_should_find_cheapest_spanning_vertice' when='call' outcome='passed'>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+      pytest_runtest_teardown [hook]
+          item: <Function 'test_simple_que_should_find_cheapest_spanning_vertice'>
+          nextitem: <Function 'test_simple_que_should_find_cheapest_spanning_egde_cost'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_simple_que_should_find_cheapest_spanning_vertice'>
+          call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_simple_que.py::test_simple_que_should_find_cheapest_spanning_vertice' when='teardown' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_simple_que.py::test_simple_que_should_find_cheapest_spanning_vertice' when='teardown' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_simple_que.py::test_simple_que_should_find_cheapest_spanning_vertice' when='teardown' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    pytest_runtest_protocol [hook]
+        item: <Function 'test_simple_que_should_find_cheapest_spanning_egde_cost'>
+        nextitem: <Function 'test_graph_should_be_graph'>
+      pytest_runtest_logstart [hook]
+          location: ('tests/test_simple_que.py', 18, 'test_simple_que_should_find_cheapest_spanning_egde_cost')
+          nodeid: tests/test_simple_que.py::test_simple_que_should_find_cheapest_spanning_egde_cost
+      pytest_runtest_setup [hook]
+          item: <Function 'test_simple_que_should_find_cheapest_spanning_egde_cost'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_simple_que_should_find_cheapest_spanning_egde_cost'>
+          call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_simple_que.py::test_simple_que_should_find_cheapest_spanning_egde_cost' when='setup' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_simple_que.py::test_simple_que_should_find_cheapest_spanning_egde_cost' when='setup' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_simple_que.py::test_simple_que_should_find_cheapest_spanning_egde_cost' when='setup' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      pytest_runtest_call [hook]
+          item: <Function 'test_simple_que_should_find_cheapest_spanning_egde_cost'>
+        pytest_pyfunc_call [hook]
+            pyfuncitem: <Function 'test_simple_que_should_find_cheapest_spanning_egde_cost'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_simple_que_should_find_cheapest_spanning_egde_cost'>
+          call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_simple_que.py::test_simple_que_should_find_cheapest_spanning_egde_cost' when='call' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_simple_que.py::test_simple_que_should_find_cheapest_spanning_egde_cost' when='call' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_simple_que.py::test_simple_que_should_find_cheapest_spanning_egde_cost' when='call' outcome='passed'>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+      pytest_runtest_teardown [hook]
+          item: <Function 'test_simple_que_should_find_cheapest_spanning_egde_cost'>
+          nextitem: <Function 'test_graph_should_be_graph'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_simple_que_should_find_cheapest_spanning_egde_cost'>
+          call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_simple_que.py::test_simple_que_should_find_cheapest_spanning_egde_cost' when='teardown' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_simple_que.py::test_simple_que_should_find_cheapest_spanning_egde_cost' when='teardown' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_simple_que.py::test_simple_que_should_find_cheapest_spanning_egde_cost' when='teardown' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    pytest_runtest_protocol [hook]
+        item: <Function 'test_graph_should_be_graph'>
+        nextitem: <Function 'test_graph_should_have_4_vertices'>
+      pytest_runtest_logstart [hook]
+          location: ('tests/test_graph/test_file_one.py', 11, 'test_graph_should_be_graph')
+          nodeid: tests/test_graph/test_file_one.py::test_graph_should_be_graph
+      pytest_runtest_setup [hook]
+          item: <Function 'test_graph_should_be_graph'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_should_be_graph'>
+          call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_be_graph' when='setup' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_be_graph' when='setup' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_be_graph' when='setup' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      pytest_runtest_call [hook]
+          item: <Function 'test_graph_should_be_graph'>
+        pytest_pyfunc_call [hook]
+            pyfuncitem: <Function 'test_graph_should_be_graph'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_should_be_graph'>
+          call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_be_graph' when='call' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_be_graph' when='call' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_be_graph' when='call' outcome='passed'>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+      pytest_runtest_teardown [hook]
+          item: <Function 'test_graph_should_be_graph'>
+          nextitem: <Function 'test_graph_should_have_4_vertices'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_should_be_graph'>
+          call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_be_graph' when='teardown' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_be_graph' when='teardown' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_be_graph' when='teardown' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    pytest_runtest_protocol [hook]
+        item: <Function 'test_graph_should_have_4_vertices'>
+        nextitem: <Function 'test_graph_should_have_4_edges'>
+      pytest_runtest_logstart [hook]
+          location: ('tests/test_graph/test_file_one.py', 14, 'test_graph_should_have_4_vertices')
+          nodeid: tests/test_graph/test_file_one.py::test_graph_should_have_4_vertices
+      pytest_runtest_setup [hook]
+          item: <Function 'test_graph_should_have_4_vertices'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_should_have_4_vertices'>
+          call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_4_vertices' when='setup' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_4_vertices' when='setup' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_4_vertices' when='setup' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      pytest_runtest_call [hook]
+          item: <Function 'test_graph_should_have_4_vertices'>
+        pytest_pyfunc_call [hook]
+            pyfuncitem: <Function 'test_graph_should_have_4_vertices'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_should_have_4_vertices'>
+          call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_4_vertices' when='call' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_4_vertices' when='call' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_4_vertices' when='call' outcome='passed'>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+      pytest_runtest_teardown [hook]
+          item: <Function 'test_graph_should_have_4_vertices'>
+          nextitem: <Function 'test_graph_should_have_4_edges'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_should_have_4_vertices'>
+          call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_4_vertices' when='teardown' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_4_vertices' when='teardown' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_4_vertices' when='teardown' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    pytest_runtest_protocol [hook]
+        item: <Function 'test_graph_should_have_4_edges'>
+        nextitem: <Function 'test_graph_should_have_vertice_2'>
+      pytest_runtest_logstart [hook]
+          location: ('tests/test_graph/test_file_one.py', 17, 'test_graph_should_have_4_edges')
+          nodeid: tests/test_graph/test_file_one.py::test_graph_should_have_4_edges
+      pytest_runtest_setup [hook]
+          item: <Function 'test_graph_should_have_4_edges'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_should_have_4_edges'>
+          call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_4_edges' when='setup' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_4_edges' when='setup' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_4_edges' when='setup' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      pytest_runtest_call [hook]
+          item: <Function 'test_graph_should_have_4_edges'>
+        pytest_pyfunc_call [hook]
+            pyfuncitem: <Function 'test_graph_should_have_4_edges'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_should_have_4_edges'>
+          call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_4_edges' when='call' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_4_edges' when='call' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_4_edges' when='call' outcome='passed'>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+      pytest_runtest_teardown [hook]
+          item: <Function 'test_graph_should_have_4_edges'>
+          nextitem: <Function 'test_graph_should_have_vertice_2'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_should_have_4_edges'>
+          call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_4_edges' when='teardown' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_4_edges' when='teardown' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_4_edges' when='teardown' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    pytest_runtest_protocol [hook]
+        item: <Function 'test_graph_should_have_vertice_2'>
+        nextitem: <Function 'test_graph_should_have_edge_2_3'>
+      pytest_runtest_logstart [hook]
+          location: ('tests/test_graph/test_file_one.py', 20, 'test_graph_should_have_vertice_2')
+          nodeid: tests/test_graph/test_file_one.py::test_graph_should_have_vertice_2
+      pytest_runtest_setup [hook]
+          item: <Function 'test_graph_should_have_vertice_2'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_should_have_vertice_2'>
+          call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_vertice_2' when='setup' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_vertice_2' when='setup' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_vertice_2' when='setup' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      pytest_runtest_call [hook]
+          item: <Function 'test_graph_should_have_vertice_2'>
+        pytest_pyfunc_call [hook]
+            pyfuncitem: <Function 'test_graph_should_have_vertice_2'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_should_have_vertice_2'>
+          call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_vertice_2' when='call' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_vertice_2' when='call' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_vertice_2' when='call' outcome='passed'>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+      pytest_runtest_teardown [hook]
+          item: <Function 'test_graph_should_have_vertice_2'>
+          nextitem: <Function 'test_graph_should_have_edge_2_3'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_should_have_vertice_2'>
+          call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_vertice_2' when='teardown' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_vertice_2' when='teardown' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_vertice_2' when='teardown' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    pytest_runtest_protocol [hook]
+        item: <Function 'test_graph_should_have_edge_2_3'>
+        nextitem: <Function 'test_graph_edge_4_1_should_be_4'>
+      pytest_runtest_logstart [hook]
+          location: ('tests/test_graph/test_file_one.py', 23, 'test_graph_should_have_edge_2_3')
+          nodeid: tests/test_graph/test_file_one.py::test_graph_should_have_edge_2_3
+      pytest_runtest_setup [hook]
+          item: <Function 'test_graph_should_have_edge_2_3'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_should_have_edge_2_3'>
+          call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_edge_2_3' when='setup' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_edge_2_3' when='setup' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_edge_2_3' when='setup' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      pytest_runtest_call [hook]
+          item: <Function 'test_graph_should_have_edge_2_3'>
+        pytest_pyfunc_call [hook]
+            pyfuncitem: <Function 'test_graph_should_have_edge_2_3'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_should_have_edge_2_3'>
+          call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_edge_2_3' when='call' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_edge_2_3' when='call' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_edge_2_3' when='call' outcome='passed'>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+      pytest_runtest_teardown [hook]
+          item: <Function 'test_graph_should_have_edge_2_3'>
+          nextitem: <Function 'test_graph_edge_4_1_should_be_4'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_should_have_edge_2_3'>
+          call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_edge_2_3' when='teardown' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_edge_2_3' when='teardown' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_should_have_edge_2_3' when='teardown' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    pytest_runtest_protocol [hook]
+        item: <Function 'test_graph_edge_4_1_should_be_4'>
+        nextitem: <Function 'test_graph_should_be_graph'>
+      pytest_runtest_logstart [hook]
+          location: ('tests/test_graph/test_file_one.py', 26, 'test_graph_edge_4_1_should_be_4')
+          nodeid: tests/test_graph/test_file_one.py::test_graph_edge_4_1_should_be_4
+      pytest_runtest_setup [hook]
+          item: <Function 'test_graph_edge_4_1_should_be_4'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_edge_4_1_should_be_4'>
+          call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_one.py::test_graph_edge_4_1_should_be_4' when='setup' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_edge_4_1_should_be_4' when='setup' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_edge_4_1_should_be_4' when='setup' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      pytest_runtest_call [hook]
+          item: <Function 'test_graph_edge_4_1_should_be_4'>
+        pytest_pyfunc_call [hook]
+            pyfuncitem: <Function 'test_graph_edge_4_1_should_be_4'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_edge_4_1_should_be_4'>
+          call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_one.py::test_graph_edge_4_1_should_be_4' when='call' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_edge_4_1_should_be_4' when='call' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_edge_4_1_should_be_4' when='call' outcome='passed'>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+      pytest_runtest_teardown [hook]
+          item: <Function 'test_graph_edge_4_1_should_be_4'>
+          nextitem: <Function 'test_graph_should_be_graph'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_edge_4_1_should_be_4'>
+          call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_one.py::test_graph_edge_4_1_should_be_4' when='teardown' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_edge_4_1_should_be_4' when='teardown' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_one.py::test_graph_edge_4_1_should_be_4' when='teardown' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    pytest_runtest_protocol [hook]
+        item: <Function 'test_graph_should_be_graph'>
+        nextitem: <Function 'test_graph_should_have_4_vertices'>
+      pytest_runtest_logstart [hook]
+          location: ('tests/test_graph/test_file_two.py', 11, 'test_graph_should_be_graph')
+          nodeid: tests/test_graph/test_file_two.py::test_graph_should_be_graph
+      pytest_runtest_setup [hook]
+          item: <Function 'test_graph_should_be_graph'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_should_be_graph'>
+          call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_be_graph' when='setup' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_be_graph' when='setup' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_be_graph' when='setup' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      pytest_runtest_call [hook]
+          item: <Function 'test_graph_should_be_graph'>
+        pytest_pyfunc_call [hook]
+            pyfuncitem: <Function 'test_graph_should_be_graph'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_should_be_graph'>
+          call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_be_graph' when='call' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_be_graph' when='call' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_be_graph' when='call' outcome='passed'>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+      pytest_runtest_teardown [hook]
+          item: <Function 'test_graph_should_be_graph'>
+          nextitem: <Function 'test_graph_should_have_4_vertices'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_should_be_graph'>
+          call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_be_graph' when='teardown' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_be_graph' when='teardown' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_be_graph' when='teardown' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    pytest_runtest_protocol [hook]
+        item: <Function 'test_graph_should_have_4_vertices'>
+        nextitem: <Function 'test_graph_should_have_4_edges'>
+      pytest_runtest_logstart [hook]
+          location: ('tests/test_graph/test_file_two.py', 14, 'test_graph_should_have_4_vertices')
+          nodeid: tests/test_graph/test_file_two.py::test_graph_should_have_4_vertices
+      pytest_runtest_setup [hook]
+          item: <Function 'test_graph_should_have_4_vertices'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_should_have_4_vertices'>
+          call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_4_vertices' when='setup' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_4_vertices' when='setup' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_4_vertices' when='setup' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      pytest_runtest_call [hook]
+          item: <Function 'test_graph_should_have_4_vertices'>
+        pytest_pyfunc_call [hook]
+            pyfuncitem: <Function 'test_graph_should_have_4_vertices'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_should_have_4_vertices'>
+          call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_4_vertices' when='call' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_4_vertices' when='call' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_4_vertices' when='call' outcome='passed'>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+      pytest_runtest_teardown [hook]
+          item: <Function 'test_graph_should_have_4_vertices'>
+          nextitem: <Function 'test_graph_should_have_4_edges'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_should_have_4_vertices'>
+          call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_4_vertices' when='teardown' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_4_vertices' when='teardown' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_4_vertices' when='teardown' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    pytest_runtest_protocol [hook]
+        item: <Function 'test_graph_should_have_4_edges'>
+        nextitem: <Function 'test_graph_should_have_vertice_2'>
+      pytest_runtest_logstart [hook]
+          location: ('tests/test_graph/test_file_two.py', 17, 'test_graph_should_have_4_edges')
+          nodeid: tests/test_graph/test_file_two.py::test_graph_should_have_4_edges
+      pytest_runtest_setup [hook]
+          item: <Function 'test_graph_should_have_4_edges'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_should_have_4_edges'>
+          call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_4_edges' when='setup' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_4_edges' when='setup' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_4_edges' when='setup' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      pytest_runtest_call [hook]
+          item: <Function 'test_graph_should_have_4_edges'>
+        pytest_pyfunc_call [hook]
+            pyfuncitem: <Function 'test_graph_should_have_4_edges'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_should_have_4_edges'>
+          call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_4_edges' when='call' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_4_edges' when='call' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_4_edges' when='call' outcome='passed'>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+      pytest_runtest_teardown [hook]
+          item: <Function 'test_graph_should_have_4_edges'>
+          nextitem: <Function 'test_graph_should_have_vertice_2'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_should_have_4_edges'>
+          call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_4_edges' when='teardown' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_4_edges' when='teardown' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_4_edges' when='teardown' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    pytest_runtest_protocol [hook]
+        item: <Function 'test_graph_should_have_vertice_2'>
+        nextitem: <Function 'test_graph_should_have_edge_2_3'>
+      pytest_runtest_logstart [hook]
+          location: ('tests/test_graph/test_file_two.py', 20, 'test_graph_should_have_vertice_2')
+          nodeid: tests/test_graph/test_file_two.py::test_graph_should_have_vertice_2
+      pytest_runtest_setup [hook]
+          item: <Function 'test_graph_should_have_vertice_2'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_should_have_vertice_2'>
+          call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_vertice_2' when='setup' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_vertice_2' when='setup' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_vertice_2' when='setup' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      pytest_runtest_call [hook]
+          item: <Function 'test_graph_should_have_vertice_2'>
+        pytest_pyfunc_call [hook]
+            pyfuncitem: <Function 'test_graph_should_have_vertice_2'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_should_have_vertice_2'>
+          call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_vertice_2' when='call' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_vertice_2' when='call' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_vertice_2' when='call' outcome='passed'>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+      pytest_runtest_teardown [hook]
+          item: <Function 'test_graph_should_have_vertice_2'>
+          nextitem: <Function 'test_graph_should_have_edge_2_3'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_should_have_vertice_2'>
+          call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_vertice_2' when='teardown' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_vertice_2' when='teardown' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_vertice_2' when='teardown' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    pytest_runtest_protocol [hook]
+        item: <Function 'test_graph_should_have_edge_2_3'>
+        nextitem: <Function 'test_graph_edge_4_1_should_be_4'>
+      pytest_runtest_logstart [hook]
+          location: ('tests/test_graph/test_file_two.py', 23, 'test_graph_should_have_edge_2_3')
+          nodeid: tests/test_graph/test_file_two.py::test_graph_should_have_edge_2_3
+      pytest_runtest_setup [hook]
+          item: <Function 'test_graph_should_have_edge_2_3'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_should_have_edge_2_3'>
+          call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_edge_2_3' when='setup' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_edge_2_3' when='setup' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_edge_2_3' when='setup' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      pytest_runtest_call [hook]
+          item: <Function 'test_graph_should_have_edge_2_3'>
+        pytest_pyfunc_call [hook]
+            pyfuncitem: <Function 'test_graph_should_have_edge_2_3'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_should_have_edge_2_3'>
+          call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_edge_2_3' when='call' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_edge_2_3' when='call' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_edge_2_3' when='call' outcome='passed'>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+      pytest_runtest_teardown [hook]
+          item: <Function 'test_graph_should_have_edge_2_3'>
+          nextitem: <Function 'test_graph_edge_4_1_should_be_4'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_should_have_edge_2_3'>
+          call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_edge_2_3' when='teardown' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_edge_2_3' when='teardown' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_should_have_edge_2_3' when='teardown' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    pytest_runtest_protocol [hook]
+        item: <Function 'test_graph_edge_4_1_should_be_4'>
+        nextitem: <Function 'test_should_find_cost_of_11'>
+      pytest_runtest_logstart [hook]
+          location: ('tests/test_graph/test_file_two.py', 26, 'test_graph_edge_4_1_should_be_4')
+          nodeid: tests/test_graph/test_file_two.py::test_graph_edge_4_1_should_be_4
+      pytest_runtest_setup [hook]
+          item: <Function 'test_graph_edge_4_1_should_be_4'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_edge_4_1_should_be_4'>
+          call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_two.py::test_graph_edge_4_1_should_be_4' when='setup' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_edge_4_1_should_be_4' when='setup' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_edge_4_1_should_be_4' when='setup' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      pytest_runtest_call [hook]
+          item: <Function 'test_graph_edge_4_1_should_be_4'>
+        pytest_pyfunc_call [hook]
+            pyfuncitem: <Function 'test_graph_edge_4_1_should_be_4'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_edge_4_1_should_be_4'>
+          call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_two.py::test_graph_edge_4_1_should_be_4' when='call' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_edge_4_1_should_be_4' when='call' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_edge_4_1_should_be_4' when='call' outcome='passed'>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+      pytest_runtest_teardown [hook]
+          item: <Function 'test_graph_edge_4_1_should_be_4'>
+          nextitem: <Function 'test_should_find_cost_of_11'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_graph_edge_4_1_should_be_4'>
+          call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_graph/test_file_two.py::test_graph_edge_4_1_should_be_4' when='teardown' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_edge_4_1_should_be_4' when='teardown' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_graph/test_file_two.py::test_graph_edge_4_1_should_be_4' when='teardown' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    pytest_runtest_protocol [hook]
+        item: <Function 'test_should_find_cost_of_11'>
+        nextitem: <Function 'test_should_find_vertices_A_B_C_D'>
+      pytest_runtest_logstart [hook]
+          location: ('tests/test_prims/test_abcd.py', 3, 'test_should_find_cost_of_11')
+          nodeid: tests/test_prims/test_abcd.py::test_should_find_cost_of_11
+      pytest_runtest_setup [hook]
+          item: <Function 'test_should_find_cost_of_11'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_should_find_cost_of_11'>
+          call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_prims/test_abcd.py::test_should_find_cost_of_11' when='setup' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_prims/test_abcd.py::test_should_find_cost_of_11' when='setup' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_prims/test_abcd.py::test_should_find_cost_of_11' when='setup' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      pytest_runtest_call [hook]
+          item: <Function 'test_should_find_cost_of_11'>
+        pytest_pyfunc_call [hook]
+            pyfuncitem: <Function 'test_should_find_cost_of_11'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_should_find_cost_of_11'>
+          call: <CallInfo when='call' exception: cannot convert dictionary update sequence element #0 to a sequence>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_prims/test_abcd.py::test_should_find_cost_of_11' when='call' outcome='failed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_prims/test_abcd.py::test_should_find_cost_of_11' when='call' outcome='failed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_prims/test_abcd.py::test_should_find_cost_of_11' when='call' outcome='failed'>
+          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+      pytest_exception_interact [hook]
+          node: <Function 'test_should_find_cost_of_11'>
+          call: <CallInfo when='call' exception: cannot convert dictionary update sequence element #0 to a sequence>
+          report: <TestReport 'tests/test_prims/test_abcd.py::test_should_find_cost_of_11' when='call' outcome='failed'>
+      pytest_runtest_teardown [hook]
+          item: <Function 'test_should_find_cost_of_11'>
+          nextitem: <Function 'test_should_find_vertices_A_B_C_D'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_should_find_cost_of_11'>
+          call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_prims/test_abcd.py::test_should_find_cost_of_11' when='teardown' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_prims/test_abcd.py::test_should_find_cost_of_11' when='teardown' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_prims/test_abcd.py::test_should_find_cost_of_11' when='teardown' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    pytest_runtest_protocol [hook]
+        item: <Function 'test_should_find_vertices_A_B_C_D'>
+        nextitem: <Function 'test_should_find_edges'>
+      pytest_runtest_logstart [hook]
+          location: ('tests/test_prims/test_abcd.py', 9, 'test_should_find_vertices_A_B_C_D')
+          nodeid: tests/test_prims/test_abcd.py::test_should_find_vertices_A_B_C_D
+      pytest_runtest_setup [hook]
+          item: <Function 'test_should_find_vertices_A_B_C_D'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_should_find_vertices_A_B_C_D'>
+          call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_prims/test_abcd.py::test_should_find_vertices_A_B_C_D' when='setup' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_prims/test_abcd.py::test_should_find_vertices_A_B_C_D' when='setup' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_prims/test_abcd.py::test_should_find_vertices_A_B_C_D' when='setup' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      pytest_runtest_call [hook]
+          item: <Function 'test_should_find_vertices_A_B_C_D'>
+        pytest_pyfunc_call [hook]
+            pyfuncitem: <Function 'test_should_find_vertices_A_B_C_D'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_should_find_vertices_A_B_C_D'>
+          call: <CallInfo when='call' exception: cannot convert dictionary update sequence element #0 to a sequence>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_prims/test_abcd.py::test_should_find_vertices_A_B_C_D' when='call' outcome='failed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_prims/test_abcd.py::test_should_find_vertices_A_B_C_D' when='call' outcome='failed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_prims/test_abcd.py::test_should_find_vertices_A_B_C_D' when='call' outcome='failed'>
+          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+      pytest_exception_interact [hook]
+          node: <Function 'test_should_find_vertices_A_B_C_D'>
+          call: <CallInfo when='call' exception: cannot convert dictionary update sequence element #0 to a sequence>
+          report: <TestReport 'tests/test_prims/test_abcd.py::test_should_find_vertices_A_B_C_D' when='call' outcome='failed'>
+      pytest_runtest_teardown [hook]
+          item: <Function 'test_should_find_vertices_A_B_C_D'>
+          nextitem: <Function 'test_should_find_edges'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_should_find_vertices_A_B_C_D'>
+          call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_prims/test_abcd.py::test_should_find_vertices_A_B_C_D' when='teardown' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_prims/test_abcd.py::test_should_find_vertices_A_B_C_D' when='teardown' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_prims/test_abcd.py::test_should_find_vertices_A_B_C_D' when='teardown' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    pytest_runtest_protocol [hook]
+        item: <Function 'test_should_find_edges'>
+        nextitem: <Function 'test_prims_should_find_cost_of_6'>
+      pytest_runtest_logstart [hook]
+          location: ('tests/test_prims/test_abcd.py', 15, 'test_should_find_edges')
+          nodeid: tests/test_prims/test_abcd.py::test_should_find_edges
+      pytest_runtest_setup [hook]
+          item: <Function 'test_should_find_edges'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_should_find_edges'>
+          call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_prims/test_abcd.py::test_should_find_edges' when='setup' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_prims/test_abcd.py::test_should_find_edges' when='setup' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_prims/test_abcd.py::test_should_find_edges' when='setup' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      pytest_runtest_call [hook]
+          item: <Function 'test_should_find_edges'>
+        pytest_pyfunc_call [hook]
+            pyfuncitem: <Function 'test_should_find_edges'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_should_find_edges'>
+          call: <CallInfo when='call' exception: cannot convert dictionary update sequence element #0 to a sequence>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_prims/test_abcd.py::test_should_find_edges' when='call' outcome='failed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_prims/test_abcd.py::test_should_find_edges' when='call' outcome='failed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_prims/test_abcd.py::test_should_find_edges' when='call' outcome='failed'>
+          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+      pytest_exception_interact [hook]
+          node: <Function 'test_should_find_edges'>
+          call: <CallInfo when='call' exception: cannot convert dictionary update sequence element #0 to a sequence>
+          report: <TestReport 'tests/test_prims/test_abcd.py::test_should_find_edges' when='call' outcome='failed'>
+      pytest_runtest_teardown [hook]
+          item: <Function 'test_should_find_edges'>
+          nextitem: <Function 'test_prims_should_find_cost_of_6'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_should_find_edges'>
+          call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_prims/test_abcd.py::test_should_find_edges' when='teardown' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/test_prims/test_abcd.py::test_should_find_edges' when='teardown' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_prims/test_abcd.py::test_should_find_edges' when='teardown' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    pytest_runtest_protocol [hook]
+        item: <Function 'test_prims_should_find_cost_of_6'>
+        nextitem: None
+      pytest_runtest_logstart [hook]
+          location: ('tests/tests_integration/test_one.py', 9, 'test_prims_should_find_cost_of_6')
+          nodeid: tests/tests_integration/test_one.py::test_prims_should_find_cost_of_6
+      pytest_runtest_setup [hook]
+          item: <Function 'test_prims_should_find_cost_of_6'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_prims_should_find_cost_of_6'>
+          call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/tests_integration/test_one.py::test_prims_should_find_cost_of_6' when='setup' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/tests_integration/test_one.py::test_prims_should_find_cost_of_6' when='setup' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/tests_integration/test_one.py::test_prims_should_find_cost_of_6' when='setup' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      pytest_runtest_call [hook]
+          item: <Function 'test_prims_should_find_cost_of_6'>
+        pytest_pyfunc_call [hook]
+            pyfuncitem: <Function 'test_prims_should_find_cost_of_6'>
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_prims_should_find_cost_of_6'>
+          call: <CallInfo when='call' exception: cannot convert dictionary update sequence element #0 to a sequence>
+        finish pytest_runtest_makereport --> <TestReport 'tests/tests_integration/test_one.py::test_prims_should_find_cost_of_6' when='call' outcome='failed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/tests_integration/test_one.py::test_prims_should_find_cost_of_6' when='call' outcome='failed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/tests_integration/test_one.py::test_prims_should_find_cost_of_6' when='call' outcome='failed'>
+          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+      pytest_exception_interact [hook]
+          node: <Function 'test_prims_should_find_cost_of_6'>
+          call: <CallInfo when='call' exception: cannot convert dictionary update sequence element #0 to a sequence>
+          report: <TestReport 'tests/tests_integration/test_one.py::test_prims_should_find_cost_of_6' when='call' outcome='failed'>
+      pytest_runtest_teardown [hook]
+          item: <Function 'test_prims_should_find_cost_of_6'>
+          nextitem: None
+      pytest_runtest_makereport [hook]
+          item: <Function 'test_prims_should_find_cost_of_6'>
+          call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/tests_integration/test_one.py::test_prims_should_find_cost_of_6' when='teardown' outcome='passed'> [hook]
+      pytest_runtest_logreport [hook]
+          report: <TestReport 'tests/tests_integration/test_one.py::test_prims_should_find_cost_of_6' when='teardown' outcome='passed'>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/tests_integration/test_one.py::test_prims_should_find_cost_of_6' when='teardown' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    finish pytest_runtestloop --> True [hook]
+  pytest_sessionfinish [hook]
+      exitstatus: 1
+      session: <Session 'prims'>
+    pytest_terminal_summary [hook]
+        terminalreporter: <_pytest.terminal.TerminalReporter object at 0x7f20ed601438>
+  pytest_unconfigure [hook]
+      config: <_pytest.config.Config object at 0x7f20edffcda0>
+    finish [config:tmpdir]

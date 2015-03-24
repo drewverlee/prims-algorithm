@@ -3,6 +3,7 @@ prims alg on a file with nodes and edges
 """
 from prims import prims
 from que import SimpleQue as Que
+from mst import MST
 from file_io import file_to_graph
 
 def main():
@@ -11,5 +12,6 @@ def main():
     """
     graph = Graph('edges.txt')
     que = Que()
-    mst = prims(graph, que)
+    start_mst = MST([graph.any_vertice()])
+    mst = prims(graph, mst, que)
     return mst.cost

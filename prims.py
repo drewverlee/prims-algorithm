@@ -1,23 +1,26 @@
 """
 prims algorithm provides find's a Minimal Spanning tree
 """
+from mst import MST
+from pprint import pprint as pp
 
-def prims(graph, que):
-    """finds a Minimal Spanning Tree
-
-    :graph: TODO
-    :que: callable that finds the cheapest_edge
-    :returns: mst
-
+def prims(graph, que, start_vertice):
     """
-    mst = MST(vertices = {random(graph.vertice)}, edges=set())
+    :graph: graph of all vertices and edges
+    :start_vertice: dic: vertice and its neighbors
+    :que: finds the cheapest spanning edge
+    :returns: Minimal Spanning Tree
+    """
+    mst = MST(vertices=start_vertice)
     while mst.vertices != graph.vertices:
-        vertice, edge, edge_cost = que.cheapest_spanning_edge(mst, graph)
-        mst.vertices.add(vertice)
-        mst.edges.add(edge)
+        vertice, neighbors, edge, edge_cost = que.cheapest_spanning_edge(mst, graph)
+        mst.vertices[vertice] = neighbors
+        mst.edges[edge] = edge_cost
         mst.cost += edge_cost
+        mst.path.append(edge)
     return mst
-        
+
+
 
 
 

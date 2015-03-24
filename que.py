@@ -24,12 +24,14 @@ class SimpleQue(object):
         vertice_not_in_mst = None
         min_edge = None
         for mst_vertice in mst.vertices:
-            for neighbor in graph.neighbors[mst_vertice]:
+            for neighbor in graph.vertices[mst_vertice]:
                 if neighbor not in mst.vertices:
                     edge = frozenset([mst_vertice, neighbor])
                     edge_cost = graph.edges[edge]
                     if edge_cost < min_edge_cost:
                         vertice_not_in_mst = neighbor
+                        neighbors = graph.vertices[neighbor]
                         min_edge_cost = edge_cost
                         min_edge = edge
-        return vertice_not_in_mst, min_edge, min_edge_cost
+
+        return vertice_not_in_mst, neighbors, min_edge, min_edge_cost
